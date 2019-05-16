@@ -11,16 +11,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}General experimental procedures}{6}{section.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Acceptance/Rejection experiment}{8}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.1}Acceptance/Rejection experiment}{7}{subsection.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Neuronal blockade experiment}{8}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Neuronal blockade experiment}{9}{subsection.3.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Mate-copying score}{9}{subsection.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Statistical analyses}{9}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.4}Statistical analyses}{10}{subsection.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5}Ethical statements}{10}{subsection.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Results}{10}{section.4}% 
+\contentsline {section}{\numberline {4}Results}{11}{section.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}A/R Experiment}{10}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.1}A/R Experiment}{11}{subsection.4.1}% 
