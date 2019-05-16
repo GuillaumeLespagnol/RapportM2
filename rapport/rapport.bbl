@@ -1,0 +1,619 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{dagaeff_drosophila_2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1b76f6aa5fbfcdb90905258e8ccbe989}{%
+           family={Dagaeff},
+           familyi={D\bibinitperiod},
+           given={Anne-Cecile},
+           giveni={A\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=d0694fb7f82d5f432cd1b9e57cebdf3c}{%
+           family={Pocheville},
+           familyi={P\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=44a27f0ac8779d3856bb88736abc52ad}{%
+           family={Nöbel},
+           familyi={N\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d24d104b7f68b710d83bd5d24a62ee30}{%
+           family={Loyau},
+           familyi={L\bibinitperiod},
+           given={Adeline},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bf0bdf5f7db4dcdcc10f19a6ef10a39d}{%
+           family={Isabel},
+           familyi={I\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e16a16f497ce2d7c0ec62d99308c743b}{%
+           family={Danchin},
+           familyi={D\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{fullhash}{a9106f9218afcaa0642d98d58dcca344}
+      \strng{bibnamehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{authorbibnamehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{authornamehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{authorfullhash}{a9106f9218afcaa0642d98d58dcca344}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00033472}
+      \field{journaltitle}{Animal Behaviour}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Drosophila mate copying correlates with atmospheric pressure in a speed learning situation}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{121}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{163\bibrangedash 174}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.anbehav.2016.08.022
+      \endverb
+      \verb{file}
+      \verb Dagaeff et al. - 2016 - Drosophila mate copying correlates with atmospheri.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/CBUEZ6D9/Dagaeff et al. - 2016 - Drosophila mate copying correlates with atmospheri.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0003347216301981
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0003347216301981
+      \endverb
+    \endentry
+    \entry{danchin_cultural_2018}{article}{}
+      \name{author}{10}{}{%
+        {{hash=e16a16f497ce2d7c0ec62d99308c743b}{%
+           family={Danchin},
+           familyi={D\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod}}}%
+        {{hash=44a27f0ac8779d3856bb88736abc52ad}{%
+           family={Nöbel},
+           familyi={N\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d0694fb7f82d5f432cd1b9e57cebdf3c}{%
+           family={Pocheville},
+           familyi={P\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b76f6aa5fbfcdb90905258e8ccbe989}{%
+           family={Dagaeff},
+           familyi={D\bibinitperiod},
+           given={Anne-Cecile},
+           giveni={A\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=c6cc19d60d60c4e43cf311cb9ac32d41}{%
+           family={Demay},
+           familyi={D\bibinitperiod},
+           given={Léa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=158700900059826b2f70bd9893e5a157}{%
+           family={Alphand},
+           familyi={A\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=be5d81c1f959bd7fe43ed2a640fccfbf}{%
+           family={Ranty-Roby},
+           familyi={R\bibinithyphendelim R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=18b10d90e5b9336921cfd6ff8e07964e}{%
+           family={Renssen},
+           familyi={R\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=00aae664047bcee2f2b2e5894e7a709e}{%
+           family={Monier},
+           familyi={M\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5e00719f53045effa94eb40e8ae46d92}{%
+           family={Gazagne},
+           familyi={G\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{fullhash}{3432e050e88f32283482124869bc5758}
+      \strng{bibnamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authorbibnamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authornamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authorfullhash}{3432e050e88f32283482124869bc5758}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Science}
+      \field{number}{6418}
+      \field{shorttitle}{Cultural flies}
+      \field{title}{Cultural flies: Conformist social learning in fruitflies predicts long-lasting mate-choice traditions}
+      \field{volume}{362}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1025\bibrangedash 1030}
+      \range{pages}{6}
+      \verb{file}
+      \verb Danchin et al. - 2018 - Cultural flies Conformist social learning in frui.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/HNM8LIX4/Danchin et al. - 2018 - Cultural flies Conformist social learning in frui.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{framit_zotero_2019}{mvbook}{}
+      \name{author}{1}{}{%
+        {{hash=f542f91e885cb745df0fb341993beeb8}{%
+           family={Framit},
+           familyi={F\bibinitperiod},
+           given={Marlène},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Toulouse}%
+      }
+      \list{publisher}{1}{%
+        {Arnaud Pocheville éditions}%
+      }
+      \strng{namehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{fullhash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{bibnamehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{authorbibnamehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{authornamehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{authorfullhash}{f542f91e885cb745df0fb341993beeb8}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Zotero est arrivé et tout le monde était très très content.}
+      \field{day}{28}
+      \field{edition}{2nde}
+      \field{month}{1}
+      \field{number}{26}
+      \field{pagetotal}{456}
+      \field{series}{Rose}
+      \field{title}{Zotero est arrivé}
+      \field{volume}{4}
+      \field{volumes}{3680000}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Framit - 2019 - Zotero est arrivé.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/NIGPL7RI/Framit - 2019 - Zotero est arrivé.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{morgan_biological_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=64c50f3697e0b474010437647fc431b5}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi J.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9c4f98cbd78e645c3f073113da703380}{%
+           family={Laland},
+           familyi={L\bibinitperiod},
+           given={K.\bibnamedelimi N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{fullhash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{bibnamehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{authorbibnamehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{authornamehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{authorfullhash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1662-4548}
+      \field{journaltitle}{Frontiers in Neuroscience}
+      \field{title}{The Biological Bases of Conformity}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{6}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fnins.2012.00087
+      \endverb
+      \verb{file}
+      \verb Morgan et Laland - 2012 - The Biological Bases of Conformity.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/2CP3NYT2/Morgan et Laland - 2012 - The Biological Bases of Conformity.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journal.frontiersin.org/article/10.3389/fnins.2012.00087/abstract
+      \endverb
+      \verb{url}
+      \verb http://journal.frontiersin.org/article/10.3389/fnins.2012.00087/abstract
+      \endverb
+    \endentry
+    \entry{pike_conformist_2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2be47dc0c335ab76c9b7e6b850ab9182}{%
+           family={Pike},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1dbb2552a5305c6cbdff301c156b17ae}{%
+           family={Laland},
+           familyi={L\bibinitperiod},
+           given={Kevin\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{fullhash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{bibnamehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{authorbibnamehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{authornamehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{authorfullhash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{issn}{1744-9561, 1744-957X}
+      \field{journaltitle}{Biology Letters}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Conformist learning in nine-spined sticklebacks' foraging decisions}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{6}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{466\bibrangedash 468}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1098/rsbl.2009.1014
+      \endverb
+      \verb{file}
+      \verb Pike et Laland - 2010 - Conformist learning in nine-spined sticklebacks' f.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/W4NSRCJF/Pike et Laland - 2010 - Conformist learning in nine-spined sticklebacks' f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.royalsocietypublishing.org/doi/10.1098/rsbl.2009.1014
+      \endverb
+      \verb{url}
+      \verb http://www.royalsocietypublishing.org/doi/10.1098/rsbl.2009.1014
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global}
+    \entry{pike_conformist_2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2be47dc0c335ab76c9b7e6b850ab9182}{%
+           family={Pike},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1dbb2552a5305c6cbdff301c156b17ae}{%
+           family={Laland},
+           familyi={L\bibinitperiod},
+           given={Kevin\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{fullhash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{bibnamehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{authorbibnamehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{authornamehash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \strng{authorfullhash}{b088ebc3a7d95931e2478ae2bda58b1c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{issn}{1744-9561, 1744-957X}
+      \field{journaltitle}{Biology Letters}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Conformist learning in nine-spined sticklebacks' foraging decisions}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{6}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{466\bibrangedash 468}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1098/rsbl.2009.1014
+      \endverb
+      \verb{file}
+      \verb Pike et Laland - 2010 - Conformist learning in nine-spined sticklebacks' f.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/W4NSRCJF/Pike et Laland - 2010 - Conformist learning in nine-spined sticklebacks' f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.royalsocietypublishing.org/doi/10.1098/rsbl.2009.1014
+      \endverb
+      \verb{url}
+      \verb http://www.royalsocietypublishing.org/doi/10.1098/rsbl.2009.1014
+      \endverb
+    \endentry
+    \entry{morgan_biological_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=64c50f3697e0b474010437647fc431b5}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi J.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9c4f98cbd78e645c3f073113da703380}{%
+           family={Laland},
+           familyi={L\bibinitperiod},
+           given={K.\bibnamedelimi N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{fullhash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{bibnamehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{authorbibnamehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{authornamehash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \strng{authorfullhash}{dc5b44761f485ec7d59a26575cc1a6d5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1662-4548}
+      \field{journaltitle}{Frontiers in Neuroscience}
+      \field{title}{The Biological Bases of Conformity}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{6}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fnins.2012.00087
+      \endverb
+      \verb{file}
+      \verb Morgan et Laland - 2012 - The Biological Bases of Conformity.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/2CP3NYT2/Morgan et Laland - 2012 - The Biological Bases of Conformity.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journal.frontiersin.org/article/10.3389/fnins.2012.00087/abstract
+      \endverb
+      \verb{url}
+      \verb http://journal.frontiersin.org/article/10.3389/fnins.2012.00087/abstract
+      \endverb
+    \endentry
+    \entry{dagaeff_drosophila_2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1b76f6aa5fbfcdb90905258e8ccbe989}{%
+           family={Dagaeff},
+           familyi={D\bibinitperiod},
+           given={Anne-Cecile},
+           giveni={A\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=d0694fb7f82d5f432cd1b9e57cebdf3c}{%
+           family={Pocheville},
+           familyi={P\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=44a27f0ac8779d3856bb88736abc52ad}{%
+           family={Nöbel},
+           familyi={N\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d24d104b7f68b710d83bd5d24a62ee30}{%
+           family={Loyau},
+           familyi={L\bibinitperiod},
+           given={Adeline},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bf0bdf5f7db4dcdcc10f19a6ef10a39d}{%
+           family={Isabel},
+           familyi={I\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e16a16f497ce2d7c0ec62d99308c743b}{%
+           family={Danchin},
+           familyi={D\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{fullhash}{a9106f9218afcaa0642d98d58dcca344}
+      \strng{bibnamehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{authorbibnamehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{authornamehash}{b51e33417c48ab31ea63aba10bbf6287}
+      \strng{authorfullhash}{a9106f9218afcaa0642d98d58dcca344}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00033472}
+      \field{journaltitle}{Animal Behaviour}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Drosophila mate copying correlates with atmospheric pressure in a speed learning situation}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{volume}{121}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{163\bibrangedash 174}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.anbehav.2016.08.022
+      \endverb
+      \verb{file}
+      \verb Dagaeff et al. - 2016 - Drosophila mate copying correlates with atmospheri.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/CBUEZ6D9/Dagaeff et al. - 2016 - Drosophila mate copying correlates with atmospheri.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0003347216301981
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0003347216301981
+      \endverb
+    \endentry
+    \entry{danchin_cultural_2018}{article}{}
+      \name{author}{10}{}{%
+        {{hash=e16a16f497ce2d7c0ec62d99308c743b}{%
+           family={Danchin},
+           familyi={D\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod}}}%
+        {{hash=44a27f0ac8779d3856bb88736abc52ad}{%
+           family={Nöbel},
+           familyi={N\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d0694fb7f82d5f432cd1b9e57cebdf3c}{%
+           family={Pocheville},
+           familyi={P\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b76f6aa5fbfcdb90905258e8ccbe989}{%
+           family={Dagaeff},
+           familyi={D\bibinitperiod},
+           given={Anne-Cecile},
+           giveni={A\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=c6cc19d60d60c4e43cf311cb9ac32d41}{%
+           family={Demay},
+           familyi={D\bibinitperiod},
+           given={Léa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=158700900059826b2f70bd9893e5a157}{%
+           family={Alphand},
+           familyi={A\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=be5d81c1f959bd7fe43ed2a640fccfbf}{%
+           family={Ranty-Roby},
+           familyi={R\bibinithyphendelim R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=18b10d90e5b9336921cfd6ff8e07964e}{%
+           family={Renssen},
+           familyi={R\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=00aae664047bcee2f2b2e5894e7a709e}{%
+           family={Monier},
+           familyi={M\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5e00719f53045effa94eb40e8ae46d92}{%
+           family={Gazagne},
+           familyi={G\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{fullhash}{3432e050e88f32283482124869bc5758}
+      \strng{bibnamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authorbibnamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authornamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authorfullhash}{3432e050e88f32283482124869bc5758}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Science}
+      \field{number}{6418}
+      \field{shorttitle}{Cultural flies}
+      \field{title}{Cultural flies: Conformist social learning in fruitflies predicts long-lasting mate-choice traditions}
+      \field{volume}{362}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1025\bibrangedash 1030}
+      \range{pages}{6}
+      \verb{file}
+      \verb Danchin et al. - 2018 - Cultural flies Conformist social learning in frui.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/HNM8LIX4/Danchin et al. - 2018 - Cultural flies Conformist social learning in frui.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{framit_zotero_2019}{mvbook}{}
+      \name{author}{1}{}{%
+        {{hash=f542f91e885cb745df0fb341993beeb8}{%
+           family={Framit},
+           familyi={F\bibinitperiod},
+           given={Marlène},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Toulouse}%
+      }
+      \list{publisher}{1}{%
+        {Arnaud Pocheville éditions}%
+      }
+      \strng{namehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{fullhash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{bibnamehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{authorbibnamehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{authornamehash}{f542f91e885cb745df0fb341993beeb8}
+      \strng{authorfullhash}{f542f91e885cb745df0fb341993beeb8}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Zotero est arrivé et tout le monde était très très content.}
+      \field{day}{28}
+      \field{edition}{2nde}
+      \field{month}{1}
+      \field{number}{26}
+      \field{pagetotal}{456}
+      \field{series}{Rose}
+      \field{title}{Zotero est arrivé}
+      \field{volume}{4}
+      \field{volumes}{3680000}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Framit - 2019 - Zotero est arrivé.pdf:/home/arnaud/.mozilla/firefox/afyzwf4b.default/zotero/storage/NIGPL7RI/Framit - 2019 - Zotero est arrivé.pdf:application/pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
