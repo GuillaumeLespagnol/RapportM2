@@ -80,7 +80,7 @@
       <file>rapport.bcf</file>
     </requires>
     <requires type="editable">
-      <file>bibzotero.bib</file>
+      <file>biblio.bib</file>
     </requires>
   </external>
 </requests>

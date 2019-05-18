@@ -1,53 +1,5 @@
-<<<<<<< Updated upstream
-[0] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'rapport.blg'
-[101] biber-MSWIN64:315> INFO - === 
-[225] Biber.pm:371> INFO - Reading 'rapport.bcf'
-[512] Biber.pm:889> INFO - Found 4 citekeys in bib section 0
-[585] Biber.pm:4093> INFO - Processing section 0
-[636] Biber.pm:4254> INFO - Looking for bibtex format file 'bibzotero.bib' for section 0
-[681] bibtex.pm:1523> INFO - LaTeX decoding ...
-[1385] bibtex.pm:1340> INFO - Found BibTeX data source 'bibzotero.bib'
-[1419] Utils.pm:193> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Coolen_social_2005' and 'coolen_social_2005' in file 'bibzotero.bib'
-[1434] Utils.pm:193> WARN - I didn't find a database entry for 'darwin_origin_1859' (section 0)
-[1434] Utils.pm:193> WARN - I didn't find a database entry for 'Danchin_behavioral_2008' (section 0)
-[1434] Utils.pm:193> WARN - I didn't find a database entry for 'Coolen_social_2005' (section 0)
-[1435] Utils.pm:193> WARN - I didn't find a database entry for 'Laidre_How_ 2009' (section 0)
-[1467] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1468] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1468] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1468] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1501] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1501] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1501] Biber.pm:3921> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[1502] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1503] bbl.pm:636> INFO - Writing 'rapport.bbl' with encoding 'UTF-8'
-[1503] bbl.pm:739> INFO - Output to rapport.bbl
-[1507] Biber.pm:110> INFO - WARNINGS: 5
-=======
-[1] Config.pm:304> INFO - This is Biber 2.12
-[2] Config.pm:307> INFO - Logfile is 'rapport.blg'
-[84] biber-MSWIN64:315> INFO - === 
-[161] Biber.pm:371> INFO - Reading 'rapport.bcf'
-[364] Biber.pm:889> INFO - Found 4 citekeys in bib section 0
-[421] Biber.pm:4093> INFO - Processing section 0
-[478] Biber.pm:4254> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[500] bibtex.pm:1523> INFO - LaTeX decoding ...
-[958] bibtex.pm:1340> INFO - Found BibTeX data source 'biblio.bib'
-[971] Utils.pm:193> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Coolen_social_2005' and 'coolen_social_2005' in file 'biblio.bib'
-[977] Utils.pm:193> WARN - I didn't find a database entry for 'darwin_origin_1859' (section 0)
-[978] Utils.pm:193> WARN - I didn't find a database entry for 'Danchin_behavioral_2008' (section 0)
-[978] Utils.pm:193> WARN - I didn't find a database entry for 'Coolen_social_2005' (section 0)
-[978] Utils.pm:193> WARN - I didn't find a database entry for 'Laidre_How_ 2009' (section 0)
-[987] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[987] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[988] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[988] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1004] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1007] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1007] Biber.pm:3921> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[1007] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1009] bbl.pm:636> INFO - Writing 'rapport.bbl' with encoding 'UTF-8'
-[1009] bbl.pm:739> INFO - Output to rapport.bbl
-[1012] Biber.pm:110> INFO - WARNINGS: 5
->>>>>>> Stashed changes
+This is BibTeX, Version 0.99dThe top-level auxiliary file: rapport.aux
+I found no \citation commands---while reading file rapport.aux
+I found no \bibdata command---while reading file rapport.aux
+I found no \bibstyle command---while reading file rapport.aux
+(There were 3 error messages)
