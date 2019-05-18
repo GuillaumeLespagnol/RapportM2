@@ -33,14 +33,10 @@ maxbibnames=3,
 maxcitenames=2 % to put "et al" after a few authors
 ]{biblatex}
 \renewcommand*{\nameyeardelim}{\space} % to remove the coma in textcite (bug work around)
-\bibliography{biblio}
+\bibliography{bibzotero}
 % To clear the "note" field:
 \AtEveryBibitem{%
 	\clearfield{note}%
-}
-\AtEveryBibitem{%
-	\clearlist{language}%
-}
 }
 \AtEveryBibitem{%
 	\clearlist{language}%
@@ -79,7 +75,7 @@ maxcitenames=2 % to put "et al" after a few authors
 %	Examples of citation: \textcite[e.g.][118]{danchin_cultural_2018}.
 	
 %	Or rather:
-%	\parencite[118]{danchin_cultural_2018}.
+	\parencite[118]{danchin_cultural_2018}.
 	\parencite{}
 %	Or several: \textcites[e.g.][118]{danchin_cultural_2018}[but see][1789]{pike_conformist_2010}
 	
@@ -179,7 +175,7 @@ maxcitenames=2 % to put "et al" after a few authors
 
 	To test for the significance of mate copying among treatments, we built a global model including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. Only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 192$, $\chi^2 = 10.447$, $p = 0.005$), air pressure (GLMM, $\chi $²: N = 192, $\chi $² = 0.572, P = 0.449) and variation of air pressure (GLMM $\chi $²: N = 192, $\chi $² = 1.831, P = 0.176) were non-significant. The interaction between air pressure and variation of air pressure was close to be significant (GLMM $\chi $²: N = 192, $\chi $² = 2.946, P = 0.086), as we could have expected in regard of the results of Dagaeff et al., 2016. No significant difference has been found between control and acceptance treatments ($\chi $² = 1.76, P = 0.18; Fig4), but both are different from rejection treatment (acceptance - rejection: $\chi $² = 11.62, P {\textless} 0.005; control - rejection: $\chi $² = 4.52, P = 0.033; Fig4).
 	
-	Voir Figure~(\ref{fig:histogramme-mcs}).
+	Voir Figure~(\ref{fig:mcsar}).
 
 %	\begin{figure}
 %		\centering
