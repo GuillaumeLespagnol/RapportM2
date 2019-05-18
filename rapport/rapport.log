@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  18 MAY 2019 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  18 MAY 2019 21:25
 entering extended mode
 **./rapport.tex
 (rapport.tex
@@ -722,13 +722,6 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 cfg"
 File: biblatex.cfg 
 ))
-! Too many }'s.
-l.44 }
-      
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
@@ -763,28 +756,28 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 70.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 66.
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -820,7 +813,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 66.
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -832,9 +825,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
  (rapport.out) (rapport.out)
 \@outlinefile=\write4
 \openout4 = `rapport.out'.
@@ -847,8 +840,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rapport.bbl' found.
  (rapport.bbl)
-Package biblatex Info: Reference section=0 on input line 70.
-Package biblatex Info: Reference segment=0 on input line 70.
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -884,39 +877,39 @@ Package biblatex Info: Reference segment=0 on input line 70.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 73.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 69.
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
 
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 73.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 69.
 
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 73.
+(Font)              <14.4> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 73.
+(Font)              <10> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 73.
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+(Font)              <7> on input line 69.
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (rapport.toc
@@ -933,7 +926,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {C:/Users/GTRIL/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 105.
 
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
@@ -941,18 +934,17 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 [4] [5] [6] [7] [8] [9]
 
-LaTeX Warning: Reference `fig:histogramme-mcs' on page 10 undefined on input li
-ne 182.
+LaTeX Warning: Reference `fig:mcsar' on page 10 undefined on input line 178.
 
 [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+ [11
 
-LaTeX Warning: Empty bibliography on input line 195.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
-(rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+ (rapport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 4B06B905CD906AD1DD0D6CBAE738E73B;785.
 
@@ -962,16 +954,16 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 14447 strings out of 492945
- 240578 string characters out of 3126252
- 706081 words of memory out of 3000000
- 18139 multiletter control sequences out of 15000+200000
+ 14472 strings out of 492945
+ 241251 string characters out of 3126252
+ 706171 words of memory out of 3000000
+ 18161 multiletter control sequences out of 15000+200000
  53423 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,31p,1311b,1709s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,6n,46p,1712b,1709s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
 c}{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
 t.enc}{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-t
@@ -982,9 +974,9 @@ lmbx12.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 blic/lm/lmr12.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmr17.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmr8.pfb>
-Output written on rapport.pdf (10 pages, 148838 bytes).
+Output written on rapport.pdf (11 pages, 150271 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
