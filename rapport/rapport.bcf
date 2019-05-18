@@ -1997,6 +1997,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">danchin_cultural_2018</bcf:citekey>
+<<<<<<< HEAD
     <bcf:citekey order="2">danchin_cultural_2018</bcf:citekey>
     <bcf:citekey order="3">danchin_cultural_2018</bcf:citekey>
     <bcf:citekey order="4">danchin_cultural_2018</bcf:citekey>
@@ -2064,6 +2065,8 @@
     <bcf:citekey order="46">fox_r_2018</bcf:citekey>
     <bcf:citekey order="47">dagaeff_drosophila_2016</bcf:citekey>
     <bcf:citekey order="48">dagaeff_drosophila_2016</bcf:citekey>
+=======
+>>>>>>> master
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

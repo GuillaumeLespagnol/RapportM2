@@ -19,6 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+<<<<<<< HEAD
     \entry{alekseyenko_targeted_2010}{article}{}
       \name{author}{3}{}{%
         {{hash=aee6b90bc834d78cf21e8f9af3b8bac6}{%
@@ -4669,6 +4670,8 @@
       \endverb
       \keyw{Animals,Brain,Computer Simulation,Drosophila,Learning,Models,Neural Pathways,Neurological,Neurons}
     \endentry
+=======
+>>>>>>> master
     \entry{danchin_cultural_2018}{article}{}
       \name{author}{12}{}{%
         {{hash=e16a16f497ce2d7c0ec62d99308c743b}{%
@@ -4738,9 +4741,14 @@
       \strng{authorbibnamehash}{29ac9df211709f9462c3b99d7f3d7568}
       \strng{authornamehash}{29ac9df211709f9462c3b99d7f3d7568}
       \strng{authorfullhash}{7c35ebb89638a9bd371c7ef82f0275a6}
+<<<<<<< HEAD
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+=======
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+>>>>>>> master
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -4769,6 +4777,7 @@
       \verb https://science.sciencemag.org/content/362/6418/1025
       \endverb
     \endentry
+<<<<<<< HEAD
     \entry{dawson_social_2018}{article}{}
       \name{author}{12}{}{%
         {{hash=67c986bb3a36f50862f3920a128dfc28}{%
@@ -4903,11 +4912,18 @@
            familyi={N\bibinitperiod},
            given={Sabine},
            giveni={S\bibinitperiod}}}%
+=======
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global}
+    \entry{danchin_cultural_2018}{article}{}
+      \name{author}{12}{}{%
+>>>>>>> master
         {{hash=e16a16f497ce2d7c0ec62d99308c743b}{%
            family={Danchin},
            familyi={D\bibinitperiod},
            given={Etienne},
            giveni={E\bibinitperiod}}}%
+<<<<<<< HEAD
         {{hash=bf0bdf5f7db4dcdcc10f19a6ef10a39d}{%
            family={Isabel},
            familyi={I\bibinitperiod},
@@ -4940,33 +4956,93 @@
     \endentry
     \entry{nobel_mate-copying_2018}{article}{}
       \name{author}{3}{}{%
+=======
+>>>>>>> master
         {{hash=44a27f0ac8779d3856bb88736abc52ad}{%
            family={Nöbel},
            familyi={N\bibinitperiod},
            given={Sabine},
            giveni={S\bibinitperiod}}}%
+<<<<<<< HEAD
         {{hash=e16a16f497ce2d7c0ec62d99308c743b}{%
            family={Danchin},
            familyi={D\bibinitperiod},
            given={Etienne},
            giveni={E\bibinitperiod}}}%
+=======
+        {{hash=d0694fb7f82d5f432cd1b9e57cebdf3c}{%
+           family={Pocheville},
+           familyi={P\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b76f6aa5fbfcdb90905258e8ccbe989}{%
+           family={Dagaeff},
+           familyi={D\bibinitperiod},
+           given={Anne-Cecile},
+           giveni={A\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=c6cc19d60d60c4e43cf311cb9ac32d41}{%
+           family={Demay},
+           familyi={D\bibinitperiod},
+           given={Léa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=158700900059826b2f70bd9893e5a157}{%
+           family={Alphand},
+           familyi={A\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=be5d81c1f959bd7fe43ed2a640fccfbf}{%
+           family={Ranty-Roby},
+           familyi={R\bibinithyphendelim R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=18b10d90e5b9336921cfd6ff8e07964e}{%
+           family={Renssen},
+           familyi={R\bibinitperiod},
+           given={Lara\bibnamedelima van},
+           giveni={L\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+        {{hash=00aae664047bcee2f2b2e5894e7a709e}{%
+           family={Monier},
+           familyi={M\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5e00719f53045effa94eb40e8ae46d92}{%
+           family={Gazagne},
+           familyi={G\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+        {{hash=560df1a293df74415b977e91cfd71a83}{%
+           family={Allain},
+           familyi={A\bibinitperiod},
+           given={Mélanie},
+           giveni={M\bibinitperiod}}}%
+>>>>>>> master
         {{hash=bf0bdf5f7db4dcdcc10f19a6ef10a39d}{%
            family={Isabel},
            familyi={I\bibinitperiod},
            given={Guillaume},
            giveni={G\bibinitperiod}}}%
       }
+<<<<<<< HEAD
       \strng{namehash}{e11c536d6664e2dc401ac2ecc03ef7c3}
       \strng{fullhash}{04ad0502cc0db67cd2b61a2230f19a3e}
       \strng{bibnamehash}{04ad0502cc0db67cd2b61a2230f19a3e}
       \strng{authorbibnamehash}{04ad0502cc0db67cd2b61a2230f19a3e}
       \strng{authornamehash}{e11c536d6664e2dc401ac2ecc03ef7c3}
       \strng{authorfullhash}{04ad0502cc0db67cd2b61a2230f19a3e}
+=======
+      \strng{namehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{fullhash}{7c35ebb89638a9bd371c7ef82f0275a6}
+      \strng{bibnamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authorbibnamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authornamehash}{29ac9df211709f9462c3b99d7f3d7568}
+      \strng{authorfullhash}{7c35ebb89638a9bd371c7ef82f0275a6}
+>>>>>>> master
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
+<<<<<<< HEAD
       \field{labeltitlesource}{title}
       \field{abstract}{Mate-copying is a form of social learning in which witnessing sexual interactions between conspecifics biases an observer female's future mate-choice. We show i}
       \field{issn}{1045-2249}
@@ -4989,6 +5065,31 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/beheco/article/29/5/1150/5048798
+=======
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Trendsetting flies Though once believed to be confined to humans, culture has now been demonstrated in many different animal species, from whales to parrots. Most such animals have high levels of cognition, but the basics of transmission and copying could easily occur in less cognitively advanced species. Danchin et al. show that mating culture can be passed on in Drosophila and model the process by which this occurs (see the Perspective by Whiten). Their results suggest that culture and copying may be much more widespread across the animal kingdom than previously believed. Science, this issue p. 1025; see also p. 998 Despite theoretical justification for the evolution of animal culture, empirical evidence for it beyond mammals and birds remains scant, and we still know little about the process of cultural inheritance. In this study, we propose a mechanism-driven definition of animal culture and test it in the fruitfly. We found that fruitflies have five cognitive capacities that enable them to transmit mating preferences culturally across generations, potentially fostering persistent traditions (the main marker of culture) in mating preference. A transmission chain experiment validates a model of the emergence of local traditions, indicating that such social transmission may lead initially neutral traits to become adaptive, hence strongly selecting for copying and conformity. Although this situation was suggested decades ago, it previously had little empirical support. Fruitflies establish a culture of preferred mates. Fruitflies establish a culture of preferred mates.}
+      \field{issn}{0036-8075, 1095-9203}
+      \field{month}{11}
+      \field{number}{6418}
+      \field{shorttitle}{Cultural flies}
+      \field{title}{Cultural flies: {Conformist} social learning in fruitflies predicts long-lasting mate-choice traditions}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{volume}{362}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{1025\bibrangedash 1030}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.aat1590
+      \endverb
+      \verb{urlraw}
+      \verb https://science.sciencemag.org/content/362/6418/1025
+      \endverb
+      \verb{url}
+      \verb https://science.sciencemag.org/content/362/6418/1025
+>>>>>>> master
       \endverb
     \endentry
   \enddatalist
