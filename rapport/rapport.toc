@@ -3,9 +3,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Material and Methods}{4}{section.2}% 
+\contentsline {section}{\numberline {2}Material and Methods}{5}{section.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Fly maintenance}{4}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.1}Fly maintenance}{5}{subsection.2.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Fly stains and crossings}{5}{subsection.2.2}% 
 \defcounter {refsection}{0}\relax 
@@ -13,14 +13,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Acceptance/Rejection experiment}{7}{subsection.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Neuronal blockade experiment}{7}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Neuronal blockade experiment}{8}{subsection.3.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Mate-copying score}{8}{subsection.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Statistical analyses}{8}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.4}Statistical analyses}{9}{subsection.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Ethical statements}{9}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {3.5}Ethical statements}{10}{subsection.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Results}{9}{section.4}% 
+\contentsline {section}{\numberline {4}Results}{10}{section.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}A/R Experiment}{9}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.1}A/R Experiment}{10}{subsection.4.1}% 

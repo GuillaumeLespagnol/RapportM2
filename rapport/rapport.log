@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  18 MAY 2019 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  18 MAY 2019 22:43
 entering extended mode
 **./rapport.tex
 (rapport.tex
@@ -753,7 +753,11 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count304
 \@quotereset=\count305
-(rapport.aux)
+(rapport.aux
+
+LaTeX Warning: Label `fig:histogramme-mcs' multiply defined.
+
+)
 \openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -770,15 +774,13 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
-
-("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+ ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 66.
-
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -926,57 +928,78 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {C:/Users/GTRIL/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 105.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 140.
 
 
 ("C:\Users\GTRIL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[4] [5] [6] [7] [8] [9]
+[4] [5] [6]
+<images/classic.png, id=191, 363.60844pt x 231.86626pt>
+File: images/classic.png Graphic file (type png)
+<use images/classic.png>
+Package pdftex.def Info: images/classic.png  used on input line 168.
+(pdftex.def)             Requested size: 364.19667pt x 232.24777pt.
+ [7 <./images/classic.png>]
+<images/ar.png, id=200, 586.44093pt x 333.49594pt>
+File: images/ar.png Graphic file (type png)
+<use images/ar.png>
+Package pdftex.def Info: images/ar.png  used on input line 187.
+(pdftex.def)             Requested size: 364.19667pt x 207.10628pt.
+ [8] [9 <./images/ar.png>] [10]
 
-LaTeX Warning: Reference `fig:mcsar' on page 10 undefined on input line 178.
+LaTeX Warning: Reference `fig:mcsar' on page 11 undefined on input line 216.
 
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
- [11
+<images/mcsar.png, id=224, 445.665pt x 348.30125pt>
+File: images/mcsar.png Graphic file (type png)
+<use images/mcsar.png>
+Package pdftex.def Info: images/mcsar.png  used on input line 220.
+(pdftex.def)             Requested size: 364.19667pt x 284.63098pt.
+[11 <./images/mcsar.png>] [12
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+] [13] [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 4B06B905CD906AD1DD0D6CBAE738E73B;785.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 14472 strings out of 492945
- 241251 string characters out of 3126252
- 706171 words of memory out of 3000000
- 18161 multiletter control sequences out of 15000+200000
- 53423 words of font info for 56 fonts, out of 3000000 for 9000
+ 14914 strings out of 492945
+ 254883 string characters out of 3126252
+ 741449 words of memory out of 3000000
+ 18547 multiletter control sequences out of 15000+200000
+ 57685 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,46p,1712b,1709s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
+ 43i,6n,54p,2034b,2328s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
+c}{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
 c}{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
 t.enc}{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-t
-s1.enc}{C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-ec.enc}<C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+s1.enc}<C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
 lmbx12.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /lm/lmmi12.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmr12.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmr17.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr8.pfb>
-Output written on rapport.pdf (11 pages, 150271 bytes).
+pe1/public/lm/lmr8.pfb><C:/Users/GTRIL/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmri12.pfb>
+Output written on rapport.pdf (15 pages, 278371 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
