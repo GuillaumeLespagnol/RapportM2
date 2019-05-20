@@ -11,6 +11,8 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{lmodern}
 \usepackage[hidelinks]{hyperref} % to hide ugly links use
+\usepackage[T1]{fontenc}
+\usepackage{times}
 \def\UrlBreaks{\do\/\do-} % To break urls at the end of the line
 
 % For bibliography:
@@ -76,13 +78,13 @@ maxcitenames=2 % to put "et al" after a few authors
 	
 %	Or rather:
 	\parencite[118]{danchin_cultural_2018}.
-<<<<<<< HEAD
+
 %	\parencite{}
 	Or several: \textcites[e.g.][118]{danchin_cultural_2018}[but see][1789]{danchin_cultural_2018}
-=======
+
 	\parencite{}
 %	Or several: \textcites[e.g.][118]{danchin_cultural_2018}[but see][1789]{pike_conformist_2010}
->>>>>>> master
+
 	
 	Or between brackets: \parencites{danchin_cultural_2018}[but see][1789]{dagaeff_drosophila_2016}.
 	
@@ -92,12 +94,13 @@ maxcitenames=2 % to put "et al" after a few authors
 	
 	\section{Introduction}
 
-	In the animal kingdom, you must win to mates. In some species,winning is a matter of weight, strength or weapons \parencite{anderson_grey_1985, clutton-brock_functions_1982}. In others it’s a matter of charms in a much more peaceful contest, and the breeders are chosen by the other sex.
-	 The mate-choice (i.e intersexual selection) can lead to captivating and highly complex traits, such as courtships or songs in birds \parencite{danchin_ecologie_2005}. Nevertheless, many species do not exhibit such traits and the choice is based on much more ambiguous and discreet signs.
+	In the animal kingdom, you must win to mate. In some species, it is by harm and winning is a matter of weight, strength or weapons \parencite{anderson_grey_1985, clutton-brock_functions_1982}. In others it is by charms in a much more peaceful contest, and the breeders are chosen by the other sex.
+	The mate-choice (i.e intersexual selection) can lead to captivating and highly complex traits, such as courtships or songs in birds \parencite{danchin_ecologie_2005}. Nevertheless, many species do not exhibit such traits and the choice is based on much more ambiguous and discreet signs.
 	“The most difficult and important act of choice is the choice of a mate” \parencite{fisher_evolution_1915}, in context of mate-choice making a mistake can be very expensive since it impact individual’s offspring.
 	To avoid mistakes, many species have acquired the capacity to learn from the observation of others and can therefore use social learning in numerous decision-making processes.
 	
-	Social learning can take different form, as teaching or copying. The latter is simpler, and even exists in non-social invertebrates\parencite{coolen_social_2005,laidre_mark_e._how_2010} . Many different behaviours can be copied \parencite{thornton_alex_multi-generational_2010, van_leeuwen_group-specific_2014}.
+	Social learning can take different form, as teaching or copying. The latter is simpler, and even exists in non-social invertebrates\parencite{coolen_social_2005,laidre_mark_e._how_2010}. 
+	Many different behaviours can be copied \parencite{thornton_alex_multi-generational_2010, van_leeuwen_group-specific_2014}.
 	 It’s particularly beneficial when individual learning is costly (time consuming or dangerous; also see \parencite{webster_m.m_social_2008}) as in mate-choice.
 	 Therefore, copying the mate-choice of potentially older conspecifics can be a reliable choice for naive individuals to avoid unnecessary mistakes.
 	
@@ -134,7 +137,7 @@ maxcitenames=2 % to put "et al" after a few authors
 	Given that mate-copying involves visual learning, we expect these neurons to be required.
 	Thanks to Liu et al., we know that UAS-GAL4 technology can be used to block specific sets of neurons \parencite{liu_subset_2012}. Precisely, by coupling UAS-GAL4 with the Shibire protein, it is possible to temporary silence specific groups of neurons and investigate in what processes they are essential. 
 	Our goal was to use a similar technique but concerning mate-copying. We used mutant flies expressing GAL4 in TH-labeled or Ddc-labeled neurons, that we have silenced to see if those neurons are required in mate-copying (for more details, see "Fly stains and crossings" section). 
-	We thus created two treatments, depending of the group of the neurons silenced, for which we calculated mate-copying scores. 
+	We thus created two treatments: ``Th'' and ``DDC'' depending of the group of the neurons silenced, for which we calculated mate-copying scores. 
 	If one group is involved in mate-copying, the corresponding treatment will exhibit a mate-copying score similar to random choice, due to the incapacity of mutants to learn.
 	
 	
@@ -158,7 +161,7 @@ maxcitenames=2 % to put "et al" after a few authors
 	
 	TH-GAL4 and Ddc-GAL4 lines were provided by Guillaume Isabel in the same Canton-S background as the Wild-type strain.
 	
-	\section{General experimental procedures}
+	\subsection{General experimental procedures}
 	
 	Artificial male phenotypes were created by dusting virgin males with pink or green powder \parencite{mery_public_2009}. Each vial of males was randomly assigned to a color. Before the experiment started, males were placed in a clean vial to remove the excess of dust for at least 20-30 min. Experiments took place in the same tube set-up and a similar but slightly modified speed-learning protocol than described in \textcite{dagaeff_drosophila_2016} (Figure 1, see also specific experiment section).
 	
@@ -170,16 +173,16 @@ maxcitenames=2 % to put "et al" after a few authors
 
 	\begin{figure}
 	\centering
-	\includegraphics[width=0.8\textwidth]{images/classic}
+	\includegraphics[width=0.6\textwidth]{images/classic}
 	\caption{Légende ici.}
 	\label{fig:Classic protocol}
 	\end{figure}
 
-	\subsection{Acceptance/Rejection experiment}
+	\subsubsection{Acceptance/Rejection experiment}
 	
 	During this first experiment, we tested whether mate-copying is achieved through aversive or appetitive memory. To do so, we split the negative and positive information given by the usual mate-copying demonstration. A classical demonstration, in which a demonstrator female chooses between two males, contains a rejection (negative information) of a male and an acceptance (positive information) of the other one. We thus created three demonstration treatments: (1) a control where a demonstrator female freely chooses between two males, (2) an “acceptance” treatment with one accepted male copulating with a demonstrator female, and (3) a rejection treatment with one male actively rejected by a female (Figure 3).
 	
-	\subsection{Neuronal blockade experiment}
+	\subsubsection{Neuronal blockade experiment}
 	
 	This second experiment aimed at exploring the mechanisms underlying the results of the Acceptance/Rejection experiment by discovering one group of dopaminergic neurons involved in mate-copying.
 	
@@ -212,23 +215,31 @@ maxcitenames=2 % to put "et al" after a few authors
 	\subsection{A/R Experiment}
 	\label{subsec:AR-experiment}
 
-	In total, we tested 850 females among which 530 copulated, including 192 with double-courtship, 64 for each treatment. First we tested for female's color preference with binomial test but neither in the demonstration (N = 850, 426 females copulated with green males and 424 copulated with pink males; binomial test: P = 0.973) nor the test (N = 192, 90 copulated with pink and 102 with green males; binomial test: P = 0.427) was there any significant difference between the two colors.
+	For this experiment, we tested 850 females among which 530 copulated during test, including 192 with double-courtship, 64 for each treatment. First we tested for female's color preference with binomial test but neither in the demonstration (N = 850, 426 females copulated with green males and 424 copulated with pink males; binomial test: P = 0.973) nor the test (N = 192, 102 copulated with green and 90 with pink males; binomial test: P = 0.427) was there any significant difference between the two colors.
 
-	For each treatment, the difference from random choice was tested with a binomial test, acceptance (where the observer female sees a copulation, N = 64, P {\textless} 0.001) and control (N = 64, P = 0.03) were both significantly different from random, but rejection treatment (where the observer female sees a male rejected without copulation, N = 64, P = 0.382) was not (Figure 4).
+	For each treatment, the difference from random choice was tested with a binomial test, ``acceptance'' (where the observer female sees a copulation, N = 64, P {\textless} 0.001) and ``control'' (N = 64, P = 0.03) were both significantly different from random, but ``rejection'' treatment (where the observer female sees a male rejected without copulation, N = 64, P = 0.382) was not (Figure 4).
 
-	To test for the significance of mate copying among treatments, we built a global model including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. Only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 192$, $\chi^2 = 10.447$, $p = 0.005$), air pressure (GLMM, $\chi $²: N = 192, $\chi $² = 0.572, P = 0.449) and variation of air pressure (GLMM $\chi $²: N = 192, $\chi $² = 1.831, P = 0.176) were non-significant. The interaction between air pressure and variation of air pressure was close to be significant (GLMM $\chi $²: N = 192, $\chi $² = 2.946, P = 0.086), as we could have expected in regard of the results of \textcite{dagaeff_drosophila_2016}. No significant difference has been found between control and acceptance treatments ($\chi $² = 1.76, P = 0.18; Fig4), but both are different from rejection treatment (acceptance - rejection: $\chi $² = 11.62, P {\textless} 0.005; control - rejection: $\chi $² = 4.52, P = 0.033; Fig4).
+	To test for the significance of mate copying among treatments, we built a global model including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. Only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 192$, $\chi^2 = 10.447$, $p = 0.005$), air pressure (GLMM, $\chi $²: N = 192, $\chi $² = 0.572, p = 0.449) and variation of air pressure (GLMM $\chi $²: N = 192, $\chi $² = 1.831, p = 0.176) were non-significant. The interaction between air pressure and variation of air pressure was close to be significant (GLMM $\chi $²: N = 192, $\chi $² = 2.946, p = 0.086), as we could have expected in regard of the results of \textcite{dagaeff_drosophila_2016}. No significant difference has been found between ``control'' and ``acceptance'' treatments ($\chi $² = 1.76, P = 0.18; Fig4), but both are different from ``rejection'' treatment (acceptance - rejection: $\chi $² = 11.62, P {\textless} 0.005; control - rejection: $\chi $² = 4.52, P = 0.033; Fig4).
 	
+	\subsection{Neuronal blockade experiment}
+	
+	For this second experiment, we tested 336 females, among 208 copulated, including 88 with double-courtship. Female's colour preference was tested with a binomial test, but we found no preference between two colors in demonstration (N = 336, 151 females copulated with green males and 185 copulated with pink males; binomial test: P = 0.072) or in test (N = 88, 47 copulated with green and 41 with pink males; binomial test: P = 0.594).
+	
+	As for previous experiment, we first tested difference from random choice for each treatment with a binomial test: females from ``Ddc'' treatment exhibited a mate-copying score different from random (N = 39, P {\textless} 0.024) while ``TH'' did not (N = 49, P {\textless} 0.568)(Fig 5).
+	
+	To test for the significance of mate-copying between ``TH'' and ``Ddc'' we built a global model, including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. Again, only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 4.245$, $p = 0.0394$) and air pressure (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 0.619$, $p = 0.4315$), variation of air pressure (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 0.259$, $p = 0.611$) and interaction between air pressure and variation of air pressure were non-significant (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 2.176$, $p = 0.14$)(Fig 4).
+	
+	
+	 
 	Voir Figure~(\ref{fig:mcsar}).
-<<<<<<< HEAD
-=======
-
+ 
 %	\begin{figure}
 %		\centering
 %		\includegraphics[width=0.8\textwidth]{images/histogramme-mcs}
 %		\caption{Légende ici.}
 %		\label{fig:histogramme-mcs}
 %	\end{figure}
->>>>>>> master
+
 
 	\begin{figure}
 	\centering
@@ -241,5 +252,4 @@ maxcitenames=2 % to put "et al" after a few authors
 \clearpage
 \newrefcontext[sorting=nyt] % sorts the bibliography by name first, then year, title
 \printbibliography
-
-\end{document}
+ \end{document}
