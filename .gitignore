@@ -7,3 +7,4 @@ rapport/*.pdf
 rapport/*.xml
 rapport/*.gz
 rapport/*.toc
+rapport/*.out
