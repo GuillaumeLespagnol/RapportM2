@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.15)  18 MAY 2019 21:38
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.16)  18 MAY 2019 20:06
+>>>>>>> Stashed changes
 entering extended mode
 **bibzotero.tex
 
@@ -10,7 +14,11 @@ entering extended mode
  
 Here is how much of TeX's memory you used:
  2 strings out of 492945
+<<<<<<< Updated upstream
  19 string characters out of 3126252
+=======
+ 19 string characters out of 3126696
+>>>>>>> Stashed changes
  56609 words of memory out of 3000000
  4005 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
