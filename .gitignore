@@ -1,1 +1,9 @@
-./rapport/*.aux
+rapport/*.aux
+rapport/*.bbl
+rapport/*.bcf
+rapport/*.blg
+rapport/*.log
+rapport/*.pdf
+rapport/*.xml
+rapport/*.gz
+rapport/*.toc
