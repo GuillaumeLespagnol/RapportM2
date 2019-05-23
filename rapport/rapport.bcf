@@ -2064,6 +2064,10 @@
     <bcf:citekey order="47">fox_r_2018</bcf:citekey>
     <bcf:citekey order="48">dagaeff_drosophila_2016</bcf:citekey>
     <bcf:citekey order="49">dagaeff_drosophila_2016</bcf:citekey>
+    <bcf:citekey order="50">dugatkin_lee_alan_reversal_1992</bcf:citekey>
+    <bcf:citekey order="50">galef_mate-choice_1998</bcf:citekey>
+    <bcf:citekey order="51">chapman_sex_2003</bcf:citekey>
+    <bcf:citekey order="52">jallon_few_1984</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">
