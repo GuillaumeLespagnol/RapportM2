@@ -2068,6 +2068,10 @@
     <bcf:citekey order="50">galef_mate-choice_1998</bcf:citekey>
     <bcf:citekey order="51">chapman_sex_2003</bcf:citekey>
     <bcf:citekey order="52">jallon_few_1984</bcf:citekey>
+    <bcf:citekey order="53">monier_dopamine_2018</bcf:citekey>
+    <bcf:citekey order="54">monier_dopamine_2018</bcf:citekey>
+    <bcf:citekey order="55">carrillo_emotional_2019</bcf:citekey>
+    <bcf:citekey order="56">carrillo_emotional_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

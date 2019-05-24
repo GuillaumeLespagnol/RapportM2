@@ -474,6 +474,79 @@
       \endverb
       \keyw{Animals,Appetitive Behavior,Dopamine,Memory,Mushroom Bodies,Smell,Behavior,Animal,Drosophila,Drosophila Proteins,Learning,Signal Transduction,Adenylyl Cyclases,Conditioning,Classical,gamma-Aminobutyric Acid,Olfactory Pathways,Reinforcement (Psychology)}
     \endentry
+    \entry{carrillo_emotional_2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=7383ef8f4d308f440a8616b0f9f66384}{%
+           family={Carrillo},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=692cc751984db51d4bb056bb3d33ccdc}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yinging},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c426f56dade2748d7340c533341be8d3}{%
+           family={Migliorati},
+           familyi={M\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+        {{hash=300c264a6e226ecdca51ccf8e495dc6b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=18ce56a70ecf862dde07c114094aa79a}{%
+           family={Gazzola},
+           familyi={G\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cc5f2776625190607ecfda701984b6ed}{%
+           family={Keysers},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{fullhash}{e9ed91ed1d072e78d1f3936d626d3a07}
+      \strng{bibnamehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{authorbibnamehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{authornamehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{authorfullhash}{e9ed91ed1d072e78d1f3936d626d3a07}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary How do the emotions of others affect us? The human anterior cingulate cortex (ACC) responds while experiencing pain in the self and witnessing pain in others, but the underlying cellular mechanisms remain poorly understood. Here we show the rat ACC (area 24) contains neurons responding when a rat experiences pain as triggered by a laser and while witnessing another rat receive footshocks. Most of these neurons do not respond to a fear-conditioned sound (CS). Deactivating this region reduces freezing while witnessing footshocks to others but not while hearing the CS. A decoder trained on spike counts while witnessing footshocks to another rat can decode stimulus intensity both while witnessing pain in another and while experiencing the pain first-hand. Mirror-like neurons thus exist in the ACC that encode the pain of others in a code shared with first-hand pain experience. A smaller population of neurons responded to witnessing footshocks to others and while hearing the CS but not while experiencing laser-triggered pain. These differential responses suggest that the ACC may contain channels that map the distress of another animal onto a mosaic of pain- and fear-sensitive channels in the observer. More experiments are necessary to determine whether painfulness and fearfulness in particular or differences in arousal or salience are responsible for these differential responses.}
+      \field{issn}{0960-9822}
+      \field{journaltitle}{Current Biology}
+      \field{month}{4}
+      \field{number}{8}
+      \field{title}{Emotional {Mirror} {Neurons} in the {Rat}’s {Anterior} {Cingulate} {Cortex}}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{volume}{29}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1301\bibrangedash 1312.e6}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cub.2019.03.024
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\dell\\Zotero\\storage\\ETKQIABG\\Carrillo et al. - 2019 - Emotional Mirror Neurons in the Rat’s Anterior Cin.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\dell\\Zotero\\storage\\VTMLXC5A\\S0960982219303227.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0960982219303227
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0960982219303227
+      \endverb
+      \keyw{causality,emotional contagion,empathy,fear,mirror neurons,pain,rodent,social behavior,vicarious activity}
+    \endentry
     \entry{chapman_sex_2003}{article}{}
       \name{author}{8}{}{%
         {{hash=24f497b6d1c0cc3d9cf19a1ad487be2f}{%
@@ -5261,8 +5334,82 @@
       \verb https://academic.oup.com/beheco/article/29/5/1150/5048798
       \endverb
     \endentry
+    \entry{carrillo_emotional_2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=7383ef8f4d308f440a8616b0f9f66384}{%
+           family={Carrillo},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=692cc751984db51d4bb056bb3d33ccdc}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yinging},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c426f56dade2748d7340c533341be8d3}{%
+           family={Migliorati},
+           familyi={M\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+        {{hash=300c264a6e226ecdca51ccf8e495dc6b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=18ce56a70ecf862dde07c114094aa79a}{%
+           family={Gazzola},
+           familyi={G\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cc5f2776625190607ecfda701984b6ed}{%
+           family={Keysers},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{fullhash}{e9ed91ed1d072e78d1f3936d626d3a07}
+      \strng{bibnamehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{authorbibnamehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{authornamehash}{808d28b145996f3a705b90afe14adbbb}
+      \strng{authorfullhash}{e9ed91ed1d072e78d1f3936d626d3a07}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary How do the emotions of others affect us? The human anterior cingulate cortex (ACC) responds while experiencing pain in the self and witnessing pain in others, but the underlying cellular mechanisms remain poorly understood. Here we show the rat ACC (area 24) contains neurons responding when a rat experiences pain as triggered by a laser and while witnessing another rat receive footshocks. Most of these neurons do not respond to a fear-conditioned sound (CS). Deactivating this region reduces freezing while witnessing footshocks to others but not while hearing the CS. A decoder trained on spike counts while witnessing footshocks to another rat can decode stimulus intensity both while witnessing pain in another and while experiencing the pain first-hand. Mirror-like neurons thus exist in the ACC that encode the pain of others in a code shared with first-hand pain experience. A smaller population of neurons responded to witnessing footshocks to others and while hearing the CS but not while experiencing laser-triggered pain. These differential responses suggest that the ACC may contain channels that map the distress of another animal onto a mosaic of pain- and fear-sensitive channels in the observer. More experiments are necessary to determine whether painfulness and fearfulness in particular or differences in arousal or salience are responsible for these differential responses.}
+      \field{issn}{0960-9822}
+      \field{journaltitle}{Current Biology}
+      \field{month}{4}
+      \field{number}{8}
+      \field{title}{Emotional {Mirror} {Neurons} in the {Rat}’s {Anterior} {Cingulate} {Cortex}}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{volume}{29}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1301\bibrangedash 1312.e6}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cub.2019.03.024
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\dell\\Zotero\\storage\\ETKQIABG\\Carrillo et al. - 2019 - Emotional Mirror Neurons in the Rat’s Anterior Cin.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\dell\\Zotero\\storage\\VTMLXC5A\\S0960982219303227.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0960982219303227
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0960982219303227
+      \endverb
+      \keyw{causality,emotional contagion,empathy,fear,mirror neurons,pain,rodent,social behavior,vicarious activity}
+    \endentry
   \enddatalist
   \missing{danchin_ecologie_2005}
+  \missing{jallon_few_1984}
   \missing{laland_animals_2003}
 \endrefsection
 \endinput

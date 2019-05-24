@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.16)  23 MAY 2019 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.16)  24 MAY 2019 15:54
 entering extended mode
 **./rapport.tex
 (rapport.tex
@@ -814,6 +814,13 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                jallon_few_1984
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                laland_animals_2003
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -913,46 +920,38 @@ File: images/mcsar.png Graphic file (type png)
 <use images/mcsar.png>
 Package pdftex.def Info: images/mcsar.png  used on input line 238.
 (pdftex.def)             Requested size: 364.19667pt x 284.65488pt.
+ [11] [12 <./images/mcsar.png>] [13] [14]
+[15] [16
 
-
-LaTeX Warning: Citation 'jallon_few_1984' on page 11 undefined on input line 26
-3.
-
-[11] [12 <./images/mcsar.png>] [13] [14
-
-] [15] [16]
-Underfull \hbox (badness 1043) in paragraph at lines 284--284
+] [17] [18]
+Underfull \hbox (badness 1043) in paragraph at lines 298--298
 [][]\T1/ptm/m/n/12 Yamamoto, Shinya and Elaine S. Seto (2014). ``Dopamine Dy-na
 m-ics and Sig-nal-ing in
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
-[17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 860EFC29A5648A872E81203902650373;945.
 
 
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                rapport
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
- 14841 strings out of 492945
- 251896 string characters out of 3126696
- 753996 words of memory out of 3000000
- 18485 multiletter control sequences out of 15000+200000
+ 14859 strings out of 492945
+ 252344 string characters out of 3126696
+ 766020 words of memory out of 3000000
+ 18500 multiletter control sequences out of 15000+200000
  34673 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,6n,54p,2034b,2330s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -964,9 +963,9 @@ ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/dell/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/dell/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/dell/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on rapport.pdf (17 pages, 223203 bytes).
+Output written on rapport.pdf (19 pages, 227738 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
