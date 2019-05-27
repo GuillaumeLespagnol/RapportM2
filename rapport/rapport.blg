@@ -1,23 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'rapport.blg'
-[58] biber-MSWIN64:315> INFO - === 
-[210] Biber.pm:371> INFO - Reading 'rapport.bcf'
-[372] Biber.pm:889> INFO - Found 48 citekeys in bib section 0
-[423] Biber.pm:4093> INFO - Processing section 0
-[515] Biber.pm:4254> INFO - Looking for bibtex format file 'bibzotero.bib' for section 0
-[556] bibtex.pm:1523> INFO - LaTeX decoding ...
-[920] bibtex.pm:1340> INFO - Found BibTeX data source 'bibzotero.bib'
-[2284] Utils.pm:193> WARN - I didn't find a database entry for 'danchin_ecologie_2005' (section 0)
-[2285] Utils.pm:193> WARN - I didn't find a database entry for 'laland_animals_2003' (section 0)
-[2285] Utils.pm:193> WARN - I didn't find a database entry for 'jallon_few_1984' (section 0)
-[2389] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2389] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2389] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2389] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[2526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2526] Biber.pm:3921> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[2527] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[2715] bbl.pm:636> INFO - Writing 'rapport.bbl' with encoding 'UTF-8'
-[2805] bbl.pm:739> INFO - Output to rapport.bbl
-[2812] Biber.pm:110> INFO - WARNINGS: 3
+[53] biber-MSWIN64:315> INFO - === 
+[83] Biber.pm:371> INFO - Reading 'rapport.bcf'
+[177] Biber.pm:889> INFO - Found 53 citekeys in bib section 0
+[196] Biber.pm:4093> INFO - Processing section 0
+[213] Biber.pm:4254> INFO - Looking for bibtex format file 'bibzotero.bib' for section 0
+[225] bibtex.pm:1523> INFO - LaTeX decoding ...
+[412] bibtex.pm:1340> INFO - Found BibTeX data source 'bibzotero.bib'
+[823] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[823] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[823] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[823] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[893] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[893] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[893] Biber.pm:3921> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[893] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[954] bbl.pm:636> INFO - Writing 'rapport.bbl' with encoding 'UTF-8'
+[1013] bbl.pm:739> INFO - Output to rapport.bbl

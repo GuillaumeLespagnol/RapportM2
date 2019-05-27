@@ -15,6 +15,7 @@
 \usepackage[pdftex]{graphicx}
 \usepackage[hidelinks]{hyperref} % to hide ugly links use
 \def\UrlBreaks{\do\/\do-} % To break urls at the end of the line
+\usepackage{subcaption}
 
 % For bibliography:
 \usepackage[
@@ -45,6 +46,18 @@ maxcitenames=2 % to put "et al" after a few authors
 	\clearlist{language}%
 }
 
+\renewbibmacro*{name:andothers}{% Based on name:andothers from biblatex.def
+	\ifboolexpr{
+		test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+		and
+		test \ifmorenames
+	}
+	{\ifnumgreater{\value{liststop}}{1}
+		{\finalandcomma}
+		{}%
+		\andothersdelim\bibstring[\emph]{andothers}}
+	{}}
+
 \emergencystretch 2em % To avoide overfull boxes
 \renewcommand{\baselinestretch}{1.5}
 
@@ -62,14 +75,37 @@ maxcitenames=2 % to put "et al" after a few authors
 \addtolength{\topmargin}{-0.5cm}
 \addtolength{\textheight}{1.5cm}
 
-\title{\Huge Mate-copying in Drosophila:\\ a matter of taste or disgust?}
-\author{Guillaume Lespagnol}
-\date{\today}
-
 \begin{document}
+\title{Mate-copying in Drosophila:\\ a matter of taste or disgust?}		
+	\begin{figure}
+		\vspace{-1cm}
+		\hspace{-2cm}
+		\includegraphics[width=20cm]{images/triche}
+		
+	\end{figure}
 	
-	\maketitle
+\vspace*{4cm}
+
+ 
+\begin{center}\huge Mate-copying in Drosophila:\\a matter of taste or disgust?\end{center}
+
 	
+\vspace*{1cm}
+
+\begin{center}Guillaume Lespagnol\end{center}
+
+
+\begin{center}Master 2 - Ecologie Evolution 2018-2019\end{center}
+\vspace*{4cm}
+
+Stage de recherche effectué dans le laboratoire Evolution et Diversité Biologique (EDB), Université Toulouse III-Paul Sabatier, sous la direction de \underline{Guillaume Isabel et Magdalena Monier.}
+
+
+
+	
+	
+	\clearpage
+	\vspace*{2cm}
 	\tableofcontents
 	
 	\clearpage
@@ -100,9 +136,9 @@ maxcitenames=2 % to put "et al" after a few authors
 	Such traditions transmitted vertically and horizontally for a trait-based preference and possibly for a long time can even lead to the appearance of  animal culture\parencite{brooks_importance_1998, danchin_cultural_2018}.
 	
 	The existence of culture in non-human species has long been disputed \parencite{laland_animals_2003} but is increasingly accepted among scientists \parencite{aplin_experimentally_2015, whitehead_geneculture_2017}. 
-	The list of animals exhibiting a form of cultural tradition is growing constantly \parencite{van_schaik_orangutan_2003, thornton_alex_multi-generational_2010, whiten_culture_2017} , and one of the most recent may surprise many, Drosophila melanogaster \parencite{danchin_cultural_2018}. 
+	The list of animals exhibiting a form of cultural tradition is growing constantly \parencite{van_schaik_orangutan_2003, thornton_alex_multi-generational_2010, whiten_culture_2017} , and one of the most recent may surprise many, Drosophila melanogaster \parencite{monier_effects_2018, danchin_cultural_2018}. 
 	Very few, if none, species have been studied as deeply and for whom knowledge in every scientific field (genetics, development, neuroscience…) is as extensive than Drosophila Melanogaster. 
-	Thus existence of mate-copying in this species represents a wondeful opportunity to understand the obscure neuronal root of an evolutive behavior broadly shared in the animal kingdom.
+	Thus existence of mate-copying in this species represents a wonderful opportunity to understand the obscure neuronal root of an evolutive behavior broadly shared in the animal kingdom.
 	
 	In drosophila, depending on if the stimulus is aversive or appetitive, different groups of neurons are involved \parencite{vogt_shared_2014,busto_olfactory_2010}. 
 	Therefore, our first step was to test if mate-copying implies aversive or appetitive memory, by isolating different kinds of stimulus contained in copulation of conspecifics. 
@@ -127,8 +163,10 @@ maxcitenames=2 % to put "et al" after a few authors
 	We thus created two treatments: ``Th'' and ``DDC'' depending of the group of the neurons silenced, for which we calculated mate-copying scores. 
 	If one group is involved in mate-copying, the corresponding treatment will exhibit a mate-copying score similar to random choice, due to the incapacity of mutants to learn.
 	
-	
+	\clearpage
 	\section{Material and Methods}
+	
+	\bigskip
 
 	\subsection{Fly maintenance}
 	
@@ -157,17 +195,33 @@ maxcitenames=2 % to put "et al" after a few authors
 	During the demonstration, we always showed two different male phenotypes (color) to the observer females, with one favorite that copulated with the demonstrator female. If demonstrator females refused to copulate, the trial was discarded. Specifics of demonstrations for each experiment are described above (see specific experiment section).
 	
 	Once the demonstrations were over, we started the mate-copying test by introducing a couple of colored virgin males (one of each color) in front of the observer female and we removed the partition, allowing the female to freely choose between males for 30 min. The partition was put back in place when all three flies were in the same side of the tubes, to promote proximity between flies. During that time, we recorded the time of first courtship for each male, the time when copulation started and the color of the chosen male. The onset of the courtship was defined as the first wing-extension of a male (Figure 2).
-
-	\begin{figure}
+	
+	
+	
+	
+	
+	\bigskip
+	\begin{figure}[h]
+	\vspace{5cm}
 	\centering
-	\includegraphics[width=0.6\textwidth]{images/classic}
-	\caption{Légende ici.}
+	\includegraphics[width=0.8\textwidth]{images/classic}
+	\caption{All experimental flies were virgin. During demonstration, observer female observes the free choice of demonstrator female. Observer females are tested immediately after the end of the demonstration. After all copulations ended, demonstrators were removed.}
 	\label{fig:Classic protocol}
 	\end{figure}
+
+\clearpage
 
 	\subsubsection{Acceptance/Rejection experiment}
 	
 	During this first experiment, we tested whether mate-copying is achieved through aversive or appetitive memory. To do so, we split the negative and positive information given by the usual mate-copying demonstration. A classical demonstration, in which a demonstrator female chooses between two males, contains a rejection (negative information) of a male and an acceptance (positive information) of the other one. We thus created three demonstration treatments: (1) a control where a demonstrator female freely chooses between two males, (2) an “acceptance” treatment with one accepted male copulating with a demonstrator female, and (3) a rejection treatment with one male actively rejected by a female (Figure 3).
+	
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/ar}
+		\caption{A/R experiment. 
+			The demonstration order is reversed each day. For acceptance treatment, both demonstrators were virgin, while for rejection treatment, only males were virgin. For control treatment, the observer female is placed in front of an empty tube for demonstration n°1 and face a free choice of the demonstrator female between two males for demonstration n°2. If the female rejected the male during acceptance treatment, it was switched to rejection and if female accepted the male during rejection treatment, it was switched to acceptance treatment. For each phase, after all copulations ended or 30 minutes, demonstrators were removed.}
+		\label{fig:ar}
+	\end{figure}
 	
 	\subsubsection{Neuronal blockade experiment}
 	
@@ -177,12 +231,6 @@ maxcitenames=2 % to put "et al" after a few authors
 	
 	After all copulations ended, demonstrator males and females were removed. Observer females were then stored individually in clean tubes at 25°C for 3-4 hours to ensure that labelled neurons are no more blocked, then we proceeded to a classical test at 25°C.
 
-	\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{images/ar}
-	\caption{Légende ici.}
-	\label{fig:ar}
-\end{figure}
 
 	\subsection{Mate-copying score}
 
@@ -192,7 +240,13 @@ maxcitenames=2 % to put "et al" after a few authors
 
 	All statistical analyses were performed with the R software version 3.5.1 (R Core Team, 2018).
 	For each treatment, the difference from a random choice was tested with a binomial test. Mate-copying scores were then analyzed in a generalized linear mixed model (GLMM, package lme4 \parencite{bates_fitting_2015}). Starting models contained the following fixed effects: treatment, normalized air pressure (air pressure in Toulouse-Blagnac weather station, at the time of the beginning of the experiment, minus mean air pressure), normalized air pressure variation within the six preceding hours and all interaction between these three variables, experimenter effect and its interaction with treatment. A random “block” effect was also introduced in the models to account for the non-independence of observer flies from the same block of 6 tubes-set up trained and tested in parallel. The significance of fixed effects was tested using Wald chi-square tests included in ANOVA function (car package, \textcite{fox_r_2018} ). Model simplification was achieved by successive withdrawal of the non-significant terms in a backward selection approach, using P-values and starting with the highest-order interaction. The final model was chosen as the one with the lowest Akaike Information Criteria (AIC, Akaike, 1969). Comparisons between treatments were done using post-hoc X² tests. 
-
+	
+	\subsection{Verification of labeled neurons in TH-GAL4 mutants}
+	
+	In view of the results of the neuronal blockade experiment, we wanted to check the neurons labeled by GAL4 in flies Ddc-GAL4/w+;;UAS-Shits/+. No verification has been conducted so far for this strain, contrarily to TH-GAL4 strain ( Isabel,G Per. Com.).
+	
+	We crossed
+	
 	\subsection{Ethical statements}
 
 	Behavioral observations of D. melanogaster required no ethical approval and complied with French laws regarding animal welfare. We kept the number of flies used in this study as small as possible. We handled flies by gentle aspiration without anesthesia to minimize damage and discomfort. After the experiments, individuals were euthanized in a freezer at -20°C.
@@ -208,18 +262,37 @@ maxcitenames=2 % to put "et al" after a few authors
 
 	To test for the significance of mate copying among treatments, we built a global model including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. The selected model included the effect of treatment, air pressure, variation of air pressure and the interaction between air pressure and its variation. Only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 192$, $\chi^2 = 10.447$, $p = 0.005$), air pressure (GLMM, $\chi $²: N = 192, $\chi $² = 0.572, p = 0.449) and variation of air pressure (GLMM $\chi $²: N = 192, $\chi $² = 1.831, p = 0.176) were non-significant. The interaction between air pressure and variation of air pressure was close to be significant (GLMM $\chi $²: N = 192, $\chi $² = 2.946, p = 0.086), as we could have expected in regard of the results of \textcite{dagaeff_drosophila_2016}. No significant difference has been found between ``control'' and ``acceptance'' treatments ($\chi $² = 1.76, P = 0.18; Fig4), but both are different from ``rejection'' treatment (acceptance - rejection: $\chi $² = 11.62, P {\textless} 0.005; control - rejection: $\chi $² = 4.52, P = 0.033; Fig4).
 	
-\subsection{Neuronal blockade experiment}
-
-For this second experiment, we tested 336 females, among which 208 copulated, including 88 with double courtship. Female's color preference was tested with a binomial test, but we found no preference between the two colors in demonstrations (N = 336, 151 females copulated with green males and 185 copulated with pink males; binomial test: p {\textless}0.072) and tests (N = 208, 107 copulated with green and 101 with pink males; binomial test: p {\textless}0.729).
-As for the previous experiment, we first tested difference from random choice for each treatment with a binomial test: females from ``Ddc'' treatment exhibited a mate-copying score different from random (N = 39, p {\textless} 0.024) while ``TH'' did not (N = 49, p {\textless} 0.568)(Fig 5).
-To test for the effect of treatment on mate-copying efficiency, we built a global model, including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. The selected model included the effect of treatment, air pressure, variation of air pressure and the interaction between air pressure and its variation.Again, only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 4.245$, $p = 0.0394$), while effect of air pressure, variation of air pressure and interaction between air pressure and air pressure variation were non-significant (GLMM, $\chi^2$: $N = 88$, $\chi^2$ = $0.619$, $0.259$ and $2.176$ respectively, $p = 0.4315$, $0.611$ and $0.14$ respectively)(Fig 4).
-	Voir Figure~(\ref{fig:mcsar}).
+	\clearpage
 		\begin{figure}
 		\centering
 		\includegraphics[width=0.8\textwidth]{images/mcsar}
-		\caption{Légende ici.}
+		\caption{Mate-copying index A/R experiment. Mate-copying index is calculated as the mean of mate-copying scores for each treatment. Just above the bars: binomial tests of departure from random choice, ***P<0.005, **P<0.01, *P<0.05, NS P>0.05. Two by two comparisons: post-hoc chi-square tests. Test between all groups: GLMM. Dashed lines indicate random choice, numbers inside the bars represent the sample size.}
 		\label{fig:mcsar}
 	\end{figure}
+\clearpage
+
+\subsection{Neuronal blockade experiment}
+
+For this second experiment, we tested 336 females, among which 208 copulated, including 88 with double courtship. Female's color preference was tested with a binomial test, but we found no preference between the two colors in demonstrations (N = 336, 151 females copulated with green males and 185 copulated with pink males; binomial test: p {\textless}0.072) and tests (N = 208, 107 copulated with green and 101 with pink males; binomial test: p {\textless}0.729).
+
+As for the previous experiment, we first tested difference from random choice for each treatment with a binomial test: females from ``Ddc'' treatment exhibited a mate-copying score different from random (N = 39, p {\textless} 0.024) while ``TH'' did not (N = 49, p {\textless} 0.568)(Fig 5).
+
+To test for the effect of treatment on mate-copying efficiency, we built a global model, including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. The selected model included the effect of treatment, air pressure, variation of air pressure and the interaction between air pressure and its variation.Again, only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 4.245$, $p = 0.0394$), while effect of air pressure, variation of air pressure and interaction between air pressure and air pressure variation were non-significant (GLMM, $\chi^2$: $N = 88$, $\chi^2$ = $0.619$, $0.259$ and $2.176$ respectively, $p = 0.4315$, $0.611$ and $0.14$ respectively)(Fig 4).
+
+\clearpage
+
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/mcnb}
+	\caption{Mate-copying index of neuronal blockade experiment. Mate-copying index is calculated as the mean of mate-copying scores for each treatment. Just above the bars: binomial tests of departure from random choice, ***P<0.005, **P<0.01, *P<0.05, NS P>0.05. Test between the groups: GLMM. Dashed lines indicate random choice, numbers inside the bars represent the sample size.}
+	\label{fig:mcsar}
+\end{figure}
+
+\clearpage
+	
 
 
 \section{Discussion}
@@ -234,40 +307,38 @@ Yet, several studies in fish have demonstrated mate-copying without copulation b
 In theses studies, it was not the copulation that witnessed the choice of the observer female but only the fact that she spends more time with one male than with the other\parencite{dugatkin_lee_alan_reversal_1992,galef_mate-choice_1998}. 
 Notably, a study on lekking birds (\textit{Terao tetrix})  showed that females exhibited mate-copying only when the males were able to copulate with demonstrator females. Our results go in the same direction but again, mate-copying was not a matter of biased copulation but of biased attraction to preferred males. In our study, both demonstration and test involved copulation and so it leave little doubt about interpretation. 
 The fact that mate-copying relies on acceptance and positive information rather than rejection and negative information is plausible in regard of evolution.
-Females can reject copulation for numerous individual-specific reasons. For example, in flies a female can reject a male if she recently mated \parencite{chapman_sex_2003}. 
+Females can reject copulation for numerous individual-specific reasons. For example, in flies a female can reject a male if she recently mated \parencite{chapman_sex_2003} or if she saw the male copulated recently \parencite{loyau_when_2012}.
 In this case, the reason for rejection is pointless for other females and uninformative about the male quality, which is potentially excellent.
 Whereas for acceptance, both individual specificities and quality of the male led to the copulation and so acceptance is much more informative.
 %Nevertheless, the mate-choice is based on many factors, 
 However, we used non-virgin demonstrator females in rejection experiment, and males can smell that the female has recently mated \parencite{jallon_few_1984}. 
 Even though we made sure the male actively courted the female, it is possible that his behavior was different because of this smell and that the female observer sees it. 
-In these conditions, its inclination to copy may be impacted, leading to the observed results. 
+Its inclination to copy may be impacted, leading to the observed results. 
 This point demand further investigation.
 
-Once we knew on what kind of stimulus the mate-copying was based on, we looked that the underlying neuronal mechanisms. 
+Once we knew on what kind of stimulus the mate-copying was based on, we looked at the underlying neuronal mechanisms. 
 Surprisingly, we found that TH-labbeled neurons are required in mate-copying, while Ddc neurons are not. 
-When heated to a restrictive temperature, Ddc-GAL4 females copied the choice of the demonstrator despite the fact that Ddc neurons was silenced; while in the same context, the choice of TH-GAL4 females were similar to random. 
-Except the results of \textcite{monier_dopamine_2018}, no study have investigated the neuronal basis of mate-copying in flies. But studies on the formation of appetitive and aversive memory in non-social (direct) learning have antagonistic results; TH was responsible of aversive memory and Ddc of appetitive memory. Since our results show that mate-copying is based on appetitive memory, we were expecting Ddc neurons to be required in mate-copying, but we were wrong.
-Accoring to our results, TH neurons are required in formation of both aversive non-social memory and appetitive social memory. Thus, groups of neurons involved in direct associative learning (non-social) are apparently different from those involved in social learning. Similar results have been found very recently in rats. \textcite{carrillo_emotional_2019} showed that a specific groups of neurons (in area 24 of Anterior cingulate cortex) responded when a rat witnessed pain of conspecifics (represented by squeaking)  but not to a fear-conditoned sound. The observer rat exhibited typical distress behavior (freezing) when they witnessed other pain or fear-conditioned sound . But when neurons of area 24 where silenced, only the socially triggered freezing where reduced. This study show that even for an identical behaviour, the groups of neurons involved are different, depending if it involves direct or indirect(social) stimuli. However, both stimuli and behaviours are different from our study and it would be necessary to investigate further to draw solid conclusions.
-self fear/self pain and other pain
- pain and other's pain both involved ACC, it could be interesting to do same for mate-copying.
-Finally, if certains sort of memory overlap (visual or olfactive), other didnt ( direct indirect) not depending of the kind of the stimuli but of?
-It show the highly pronounced similarity in mechanism between insect and mammals but also underdie complexity of brain.
-In light of such results, it seem that social and non social learning are based on different group of neurons. Meanwhile, learning based on cues of different kind (olfactory, visual...) involves overlapping group of neurons. 
-This findings is interesting in regard of evolution, group of different neurons respond to a stimuli depending he concern self or other. There is several explication, it s adapative of being able to differentiate if stimuli on self or other, or evolved later in evolution. Information is of totally different nature, concerning self or others, a good step is to study it in higly socialized species.
-In human and primates, mirror neurons and amydalia are reponsible for social cognition and behavior, dedicated structure. In non social insect, different but overlapping group of neurons lead social or non social cognition and learning. Interesting to study it in  intermediate devloped brain to understand how it evolued through complzxisation of brain.
-Also, given that mechanisms of social cognition are similar in drosophila and human, it could be a good starting point to get better understanding of autism in human.
-Study that  look at evolutionary process with a mecanistic approach have been underdone for so long ->
--> Réfléxion évolution et culture
--> Méca évo
--> conclusion
-%	Voir Figure~(\ref{fig:mcsar}).
- 
-%	\begin{figure}
-%		\centering
-%		\includegraphics[width=0.8\textwidth]{images/histogramme-mcs}
-%		\caption{Légende ici.}
-%		\label{fig:histogramme-mcs}
-%	\end{figure}
+When heated to a restrictive temperature, Ddc-GAL4 females copied the choice of the demonstrator despite the fact that Ddc neurons was silenced; while in the same context, females with TH-GAL4 neurons silenced didn't exhibited mate-copying, with a similar to random. Yet, we ran out of time and we could not do a control treatment to check if the flies w+/w-;;UAS-Shits/TH-GAL4 had a mate-copying score different from the random. It is possible that the presence of the transgenes impair the functioning of the brain and prevent learning even when the flies are not heated to restrictive temperature. Potentially the incapacity to learn of these flies would not come from the silencing of these neurons but from a more global neural problem due to the use of mutants.
+Except the results of \textcite{monier_dopamine_2018}, no study have investigated the neuronal basis of mate-copying in flies. But concerning the formation of appetitive and aversive memory in non-social (direct) learning, the results are antagonistic; TH was responsible of aversive memory and Ddc of appetitive memory. Since our results show that mate-copying is based on appetitive memory, we were expecting Ddc neurons to be required in mate-copying, but we were wrong.
+According to our results, TH neurons are required in formation of both aversive direct memory and appetitive indirect memory. 
+Thus direct and indirect learning involves different group of neurons. 
+And it seems that
+Comparable results have been found very recently in rats. \textcite{carrillo_emotional_2018} showed that a specific group of neurons (in Anterior cingulate cortex) responded to a social aversive stimulus (conspecific's pain) but not to an aversive non-social stimulus (a fear-conditioned sound). After deactivation of theses neurons, observer rat showed reduced distress when witnessing pain of conspecifics but freezing in response to fear-conditioned sound was unchanged.
+Similarly to our study, these results show that response to social and non-social stimulus involves different group of neurons. Even if it's comparable to our study nature of stimulus and difference in brain structure makes it difficult to draw solid conclusions. But such results potentially underlie the high similarity of learning mechanisms between flies and rat, and more generally mammals. It's especially interesting because \textit{Drosophila melanogaster} is a non-social insect, and the existence of culture in such species make it possible to potentially understand how it evolved throughout the brain's complexification; by studying these neuronal mechanisms in social insects and then in species with more and more complex brains.
+
+In conclusion, we showed that mate-copying in flies comes from the observation of copulation between conspecifics and that it's neuronal pathway is different from those involved in direct associate learning. If several issues temper our conclusions (lack control and use of mated females) 
+it does not prevent our results from showing that even after one century spent studying it, much remains to be learned from Drosophila. Future studies should investigate other neuronal structures involved in mate-copying
+they allow to dive deeper into the exploration of brain mechanisms, looking for what other neural groups of mushroom body are involved.
+In regard of evolution, our results, even if preliminary, are truly interesting as they support the fact that appearance of social cognition did not appear at the same time as the non-social  during life's evolution. 
+Moreover, it is relevant from an adaptive point of view  to process differently personal and social stimuli as the issues and the appropriate response are very different. Meanwhile, personal stimuli, even if they come from different sensory cues, conveys information specific to the individual; possible responses are more determined by the valence (positive or negative) of the stimuli than by the fact that it is visual or olfactory(smelling and seeing a predator should lead to similar reactions).
+Finally, despite huge differences in brain size and complexity, homology between flies and mammals have led to major advances in our understanding of human neural mechanisms and diseases \parencite{bellen_100_2010, ugur_drosophila_2016, hewitt_mechanisms_2017}; specially autism that comes from a problem of neuronal structure related to social cognition. 
+More generally, now that mate-copying and a form of animal culture have been shown in flies it is time to understand the neuronal basis of cultural transmission whose importance in the evolution of species is increasingly recognized \parencite{danchin_public_2004}.
+Our study is one step further in this direction. 
+
+
+
+
+
 
 
 
