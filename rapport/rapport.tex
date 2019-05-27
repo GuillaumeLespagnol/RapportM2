@@ -77,31 +77,46 @@ maxcitenames=2 % to put "et al" after a few authors
 
 \begin{document}
 \title{Mate-copying in Drosophila:\\ a matter of taste or disgust?}		
-	\begin{figure}
-		\vspace{-1cm}
-		\hspace{-2cm}
-		\includegraphics[width=20cm]{images/triche}
-		
-	\end{figure}
-	
-\vspace*{4cm}
+  \makeatletter
+    \begin{titlepage}
+	         \begin{center}
+		  \includegraphics[width=0.28\textwidth]{images/edb}\hspace{2em}
+		 \includegraphics[width=0.16\textwidth]{images/cnrs}\hspace{0.5em}
+		  \includegraphics[width=0.45\textwidth]{images/paulsab}\\
+		             [3.6em]
+		             {\Large
+			                 \bfseries \@title }\\[2em]
+		             {\large \@author}\\[1.2em]
+		             {\large \@date}\\
+		             \vspace{2.8 em}
+		             {\normalsize
+			             Stage de recherche effectué au laboratoire Évolution et 
+			 Diversité Biologique (UMR 5174)\\
+			             Université Toulouse III -- Paul Sabatier\\
+			             sous la direction de Guillaume Isabel et Magdalena Monier}\\
+		            \vspace{2.8 em}
+% \copyrightbox[r]{\includegraphics[width=0.40\textheight]{images/mouches_duneau}}{\scriptsize
+%	 D.~Duneau.
+%	                 Science \textbf{362} 2018.
+%	                 \normalsize}
+ %               \\
+%             \vfill
+ {\normalsize \emph{Soutenu le 7 juin 2019 devant la
+		 commission d'examen. Le présent rapport constitue un exercice 
+		 pédagogique qui n'engage en aucun cas la responsabilité du laboratoire 
+		 d'accueil.}}
+         \end{center}
+     \end{titlepage}
+     \makeatother
+     \thispagestyle{empty}
+     \newpage
 
- 
-\begin{center}\huge Mate-copying in Drosophila:\\a matter of taste or disgust?\end{center}
+     %Add content for page two here (useful for two-sided printing)
+    \thispagestyle{empty}
+    \newpage
 
-	
-\vspace*{1cm}
-
-\begin{center}Guillaume Lespagnol\end{center}
-
-
-\begin{center}Master 2 - Ecologie Evolution 2018-2019\end{center}
-\vspace*{4cm}
-
-Stage de recherche effectué dans le laboratoire Evolution et Diversité Biologique (EDB), Université Toulouse III-Paul Sabatier, sous la direction de \underline{Guillaume Isabel et Magdalena Monier.}
-
-
-
+   
+     \setcounter{page}{1} %Start the actually document on page 1
 	
 	
 	\clearpage
@@ -273,17 +288,22 @@ To test for the effect of treatment on mate-copying efficiency, we built a globa
 
 So far, mate-copying studies in \textit{Drosophila melanogaster} were based on the acceptance or rejection of different phenotypes by a demonstrator.
 Here we showed that the acceptance, not the rejection, of a single male is sufficient to induce mate-copying in females. 
-When a female witnessed an acceptance of male followed by a copulation, she exhibited mate-copying. 
-In the other case, when observer female witnessed only a rejection of the male, her subsequent choices was similar to random. 
-In both cases, only a part of the information was available for the female; but it seems that only positive information matter for mate-copying, since mate-copying index of rejection treatment was not different from random.
-%voir papier alvargues  pour interprétation?
-Yet, several studies in fish have demonstrated mate-copying without copulation between demonstrators, but they are hardly comparable to our study. 
-In theses studies, it was not the copulation that witnessed the choice of the observer female but only the fact that she spends more time with one male than with the other\parencite{dugatkin_lee_alan_reversal_1992,galef_mate-choice_1998}. 
-Notably, a study on lekking birds (\textit{Terao tetrix})  showed that females exhibited mate-copying only when the males were able to copulate with demonstrator females. Our results go in the same direction but again, mate-copying was not a matter of biased copulation but of biased attraction to preferred males. In our study, both demonstration and test involved copulation and so it leave little doubt about interpretation. 
-The fact that mate-copying relies on acceptance and positive information rather than rejection and negative information is plausible in regard of evolution.
-Females can reject copulation for numerous individual-specific reasons. For example, in flies a female can reject a male if she recently mated \parencite{chapman_sex_2003} or if she saw the male copulated recently \parencite{loyau_when_2012}.
-In this case, the reason for rejection is pointless for other females and uninformative about the male quality, which is potentially excellent.
+When a female witnessed an acceptance of a male followed by a copulation, she exhibited mate-copying. 
+In the other case, when observer female witnessed only a rejection of the male, her subsequent choice was similar to random. 
+According to our results, only positive information matter for mate-copying, since mate-copying index of rejection treatment was not different from random.
+In both cases, only a part of the information was available for the female. 
+Since we used virgin(naive) observer females, they had never previously observed sexual interaction. 
+And even though the two phenotypes that we created them were presented during this experiment, they saw the female demonstrator interact with only one of them. 
+In acceptance treatment the observer saw an accepted phenotype but no rejected phenotype whereas for rejection treatment they saw no accepted phenotype. 
+The observer female could not really observe which phenotype is chosen by the demonstrator female, just that she rejected one phenotype among potentially many (atleast two in our experiment).
+Therefore, the fact that mate-copying relies on acceptance and positive information rather than rejection and negative information is rational in regard of evolution.
+Mate-choice is based on many individual-specific characteristic. For genetic characteristics, as is the case in other species where the mate-choice is for example based on MHC-dissimilarity \parencite{wedekind_MHC_1995, landry_good_2001}. In flies, among other reasons \parencite{tennant_causes_2014}, a female can also reject a male if she recently mated \parencite{chapman_sex_2003} or if she saw the male copulated recently \parencite{loyau_when_2012}. 
+So in many situations, the reasons for the rejection are pointless for other females and uninformative about the male quality, which is potentially excellent.
 Whereas for acceptance, both individual specificities and quality of the male led to the copulation and so acceptance is much more informative.
+Yet, several studies in fish have demonstrated mate-copying without copulation between demonstrators, but they are hardly comparable to our study. 
+In theses studies, it was not the copulation that witnessed the choice of the observer female but only the fact that she spends more time with one male than with the other\parencite{dugatkin_lee_alan_reversal_1992,galef_mate-choice_1998}. Even if \textcite{bischoff_tail_1985} results show that it is a proxy of subsequent female-choice, it is not an effective choice. So These results are hardly comparable to ours, especially since the protocols and species are very different
+It is interesting to note that a study on lekking birds (\textit{Terao tetrix}) showed that females exhibited mate-copying only when the males were able to copulate with demonstrator females\parencite{}. Our results go in the same direction but again, mate-copying was not a matter of biased copulation but of biased attraction to preferred males. In our study, both demonstration and test involved copulation and so it leave little doubt about interpretation. 
+
 %Nevertheless, the mate-choice is based on many factors, 
 However, we used non-virgin demonstrator females in rejection experiment, and males can smell that the female has recently mated \parencite{jallon_few_1984}. 
 Even though we made sure the male actively courted the female, it is possible that his behavior was different because of this smell and that the female observer sees it. 
