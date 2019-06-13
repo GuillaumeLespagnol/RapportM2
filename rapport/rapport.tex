@@ -2,11 +2,8 @@
 % see http://writer2latex.sourceforge.net for more info
 \documentclass[a4paper, 12pt]{article}
 \usepackage[utf8]{inputenc}
-
 \usepackage[T1]{fontenc}
 \usepackage{times}
-%\usepackage[T1]{fontenc}
-%\usepackage{lmodern}
 \usepackage[english]{babel}
 \usepackage{amsmath}
 \usepackage{amssymb,amsfonts,textcomp}
@@ -21,7 +18,7 @@
 \usepackage{subcaption}
 \usepackage{setspace}
 % For bibliography:
-\usepackage[
+\usepackage[%
 %    natbib = true,
 %     backend=bibtex, % this OR biber
 backend=biber,
@@ -32,7 +29,9 @@ eprint=false,
 %    style=numeric,
 %style=authoryear,
 style=authoryear-comp,
+%sorting=none,
 sorting=ynt, % sorts names in citations by year, name, then title
+%sorting=nyt, % sorts names in citations by year, name, then title
 sortcites = true, % to avoid first names, but check disambiguation in the very end:
 uniquename=false,
 uniquelist=false,
@@ -78,6 +77,8 @@ maxcitenames=2 % to put "et al" after a few authors
 \addtolength{\textheight}{1.5cm}
 
 \begin{document}
+	
+	
 \title{Mate-copying in Drosophila:\\ a matter of taste or disgust?}		
 \begin{figure}
 	\vspace{-1cm}
@@ -118,7 +119,7 @@ d'accueil.}
 	
 	
 	\clearpage
-	
+
 	
  \begin{LARGE}
  	Acknowledgements
@@ -164,6 +165,7 @@ conspecifics, this process is called mate-copying. It allows individuals to indi
 \end{singlespace}
 \medskip
 \begin{large}
+	\noindent
 \textbf{Résumé}
 \end{large}
 
@@ -177,7 +179,7 @@ There are few things as extravagant as the traits develloped by sexual selection
  by harm and it is a matter of weight, strength or weapons \parencite{anderson_grey_1985, clutton-brock_functions_1982}. While in others it is by charms and the opposite sex chooses the breeders, in a much more peaceful contest.  Mate-choice (i.e intersexual selection) can lead to captivating and highly complex traits to attract the opposite sex, such as courtships or songs in birds \parencite{danchin_ecologie_2005}. Nevertheless, many species do not exhibit such traits and the choice is based on much more discreet signs. Yet, as stated a century ago by A.R Fisher: “The most difficult and important act of choice is the choice of a mate” \parencite{fisher_evolution_1915}, any mistake can be very expensive since it directly impacts individual’s offspring. To avoid mistakes, many species have acquired the capacity to learn from the observation of others and can therefore use social learning in numerous decision-making processes.
 
 Social learning can take many forms as the transmission of information can be
-intentional (teaching), or not. The latter is simpler since it does not require an active and intentional participation of the demonstrator. Copying is likely to be more common, and even exists in non-social invertebrates\parencite{coolen_social_2005, mark_how_2010}. Many behaviors can be copied, whether trivial \parencite{van_leeuwen_group-specific_2014} or decisive for the individual’s fitness \parencite{mery_public_2009}. It’s particularly beneficial when individual learning is costly (time consuming or dangerous; see also\parencite{webster_social_2008}) as in mate-choice. Therefore, copying the mate-choice of potentially more experienced conspecifics can be a good solution for naive individuals to avoid the extra costs of individual learning
+intentional (teaching), or not. The latter is simpler since it does not require an active and intentional participation of the demonstrator. Copying is likely to be more common, and even exists in non-social invertebrates \parencite{coolen_social_2005, mark_how_2010}. Many behaviors can be copied, whether trivial \parencite{van_leeuwen_group-specific_2014} or decisive for the individual’s fitness \parencite{mery_public_2009}. It’s particularly beneficial when individual learning is costly (time consuming or dangerous; see also\parencite{webster_social_2008}) as in mate-choice. Therefore, copying the mate-choice of potentially more experienced conspecifics can be a good solution for naive individuals to avoid the extra costs of individual learning
 
 
 Mate-copying is a form of social learning in which the observation of a sexual interaction in conspecifics biases the subsequent mate-choice decision of the observer \parencite{brown_fish_2011}. It has been first demonstrated in fishes \parencite{dugatkin_reversal_1992}, followed by observations in many vertebrates \parencite{galef_mate-choice_1998, yorzinski_same-sex_2010} and recently in invertebrates \parencite{mery_public_2009, fowler-finn_complexities_2015}. Its benefits are double-sided as it facilitates the decision of the mate-choice of naïve individuals and make sure that their descendants will be preferred by conspecifics. By reproducing with a partner of the most preferred phenotype, their descendants will have chances to possess in their turn the preferred trait.
@@ -187,7 +189,7 @@ The existence of culture in non-human species has long been disputed \parencite{
 
 There are only two ways to learn, direct learning (the individual learns by himself) or indirect learning (the individual learns from others). Since a century, the works of Pavlov and Skinner have led to considerable advances in the study of associative learning mechanisms \parencite{pavlov_conditioned_1927, skinner_behavior_1938}. Associative learning can be studied using two main methods: pavlovian conditioning and operant conditioning. In pavlovian conditioning experiments, it is possible to teach the animal to react to a previously neutral stimulus, by associating for example a sound (neutral cue) with the presence of sugar (appetitive cue). In operant conditioning, it is possible to teach them to change their behavior in response to a stimulus. For example, by exposing them to an electric shock as they move in a specific direction. Contrary to Pavlovian, operant conditioning requires a specific action of the animal which is active. With the help of genetic and neuronal tools, it is possible to know the neuronal groups involved in these behavioral associations. In drosophila, depending on the valence of the stimulus (either appetitive or aversive), different groups of neurons are involved in the learning process \parencite{vogt_shared_2014, busto_olfactory_2010}. But only few studies focused on indirect learning and its mechanisms.Therefore, our first step was to test whether mate-copying implies aversive or appetitive memory. During a classic mate-copying experiment, the demonstration contains several types of information, the acceptance of one male and the rejection of another. We considered that a rejection represents a negative stimulus and acceptance of copulation a positive stimulus for an observer female. So, we created two treatments by presenting to an observer, a male rejected by a female ("Rejection" treatment) or a male accepted by a female ("Acceptance" treatment), and we measured the observer’s inclination to copy. 
 	
-In a second part, we went deeper into the neuronal mechanisms of mate-copying by searching which group of dopaminergic neurons is required for mate-copying. The neuronal mechanisms underlying non-social visual and olfactory learning are very well known in drosophila (reviewed in \textcite{guo_vision_2017} and \textcite{cognigni_right_2018}). Regarding their roles in non-social learning, two brain structures are particularly prone to be involved in mate-copying, the central complex and the mushroom bodies. The central complex localized in the center of the insect brain plays a major role in decoding visual information. It receives visual inputs from the rest of the brain and controls vision-related behaviors, memory and learning. The mushroom bodies are formed by two symmetrical groups of approximately 2500 neurons in the center of the insect brain. Several studies about its structure showed that it can be divided in different sub-areas: calyx, pedunculus, medial lobes and vertical lobes \parencite{aso_neuronal_2014}(voir figure~\ref{fig:brain}). Mushroom bodies are an integrative center involved in learning, memory and decision-making. It has been compared to the hippocampus of mammals due to the similar role they play in learning \parencite{strausfeld_evolution_1998}.
+In a second part, we went deeper into the neuronal mechanisms of mate-copying by searching which group of dopaminergic neurons is required for mate-copying. The neuronal mechanisms underlying non-social visual and olfactory learning are very well known in drosophila (reviewed in \textcite{guo_vision_2017} and \textcite{cognigni_right_2018}). Regarding their roles in non-social learning, two brain structures are particularly prone to be involved in mate-copying, the central complex and the mushroom bodies. The central complex localized in the center of the insect brain plays a major role in decoding visual information. It receives visual inputs from the rest of the brain and controls vision-related behaviors, memory and learning. The mushroom bodies are formed by two symmetrical groups of approximately 2500 neurons in the center of the insect brain. Several studies about its structure showed that it can be divided in different sub-areas: calyx, pedunculus, medial lobes and vertical lobes \parencite{aso_neuronal_2014} (see figure~\ref{fig:brain}). Mushroom bodies are an integrative center involved in learning, memory and decision-making. It has been compared to the hippocampus of mammals due to the similar role they play in learning \parencite{strausfeld_evolution_1998}.
 Notably, a recent study found that \(\gamma\) lobes are required for visual associative memory \parencite{ vogt_shared_2014} which is consistent with previous studies showing that neurons involved in appetitive and aversive memories are heavily connected to \(\gamma\) lobes \parencite{claridge_writing_2009, burke_layered_2012}. 
 
 	\begin{figure}
@@ -203,7 +205,7 @@ On the contrary, despite a rich repertoire of well-studied social processes \par
 	
 		\begin{figure}
 		\centering
-		\includegraphics[width=0.7\textwidth]{images/guas}
+		\includegraphics[width=0.7\textwidth]{images/GUAS}
 		\caption{Schematic representation of the GAL4/UAS system.\\ 
 			GAL4 transgene is inserted in downstream of a molecule-specific promoter, here Tyrosine-Hydroxylate (TH) or DopaDecarboxylase (ddc). GAL4 is thus expressed in the same tissues as these molecules. Thus GAL4 transcription factor will activate the enhancer UAS (Upstream Activating System) which is followed by the gene of interest, here shibire, and will allow the expression of the corresponding molecule in response to GAL4. This molecule will be expressed only in tissues where GAL4 is present.}
 		\label{fig:GUAS}
@@ -258,14 +260,14 @@ Thanks to \textcite{kitamoto_conditional_2001}, we know that UAS-GAL4 technology
 			Adapted from Sokolowski 2001.}
 		\label{fig:court}
 	\end{figure}
-	Artificial male phenotypes were created by dusting virgin males with pink or green powder \parencite{mery_public_2009}. Each vial of males was randomly assigned to a color. Before the experiment started, males were placed in a clean vial to remove the excess of dust for at least 20-30 min. Experiments took place in the same tube set-up and a similar but slightly modified speed-learning protocol than described in \textcite{dagaeff_drosophila_2016} (Voir figure~\ref{fig:classic}, see also specific experiment section).
+	Artificial male phenotypes were created by dusting virgin males with pink or green powder \parencite{mery_public_2009}. Each vial of males was randomly assigned to a color. Before the experiment started, males were placed in a clean vial to remove the excess of dust for at least 20-30 min. Experiments took place in the same tube set-up and a similar but slightly modified speed-learning protocol than described in \textcite{dagaeff_drosophila_2016} (See figure~\ref{fig:classic}, see also specific experiment section).
 		
 
 	Demonstrator and observer flies were placed in two compartments of double plastic tubes, separated by a thin glass partition and closed by cotton plugs. All replicates were run in blocks of six trials with cardboard barriers between experimental set-ups, to prevent information exchange between the flies and disturbance from the surroundings. 
 	
 	During the demonstration, we always showed two different male phenotypes (color) to the observer females, with one favorite that copulated with the demonstrator female. If demonstrator females refused to copulate, the trial was discarded. Specifics of demonstrations for each experiment are described above (see specific experiment section).
 	
-	Once the demonstrations were over, we started the mate-copying test by introducing a couple of colored virgin males (one of each color) in front of the observer female and we removed the partition, allowing the female to freely choose between males for 30 min. The partition was put back in place when all three flies were in the same side of the tubes, to promote proximity between flies. During that time, we recorded the time of first courtship for each male, the time when copulation started and the color of the chosen male. The onset of the courtship was defined as the first wing-extension of a male (Voir Figure~\ref{fig:court}).
+	Once the demonstrations were over, we started the mate-copying test by introducing a couple of colored virgin males (one of each color) in front of the observer female and we removed the partition, allowing the female to freely choose between males for 30 min. The partition was put back in place when all three flies were in the same side of the tubes, to promote proximity between flies. During that time, we recorded the time of first courtship for each male, the time when copulation started and the color of the chosen male. The onset of the courtship was defined as the first wing-extension of a male (See Figure~\ref{fig:court}).
 	
 	
 
@@ -279,7 +281,7 @@ Thanks to \textcite{kitamoto_conditional_2001}, we know that UAS-GAL4 technology
 
 	\subsubsection{Acceptance/Rejection experiment}
 	
-	During this first experiment, we tested whether mate-copying is achieved through aversive or appetitive memory. To do so, we split the negative and positive information given by the usual mate-copying demonstration. A classical demonstration, in which a demonstrator female chooses between two males, contains a rejection (negative information) of a male and an acceptance (positive information) of the other one. We thus created three demonstration treatments: (1) a "control" where a demonstrator female freely chooses between two males, (2) an Acceptance treatment with one accepted male copulating with a demonstrator female, and (3) a Rejection treatment with one male actively rejected by a female (Voir Figure~\ref{fig:ar}).
+	During this first experiment, we tested whether mate-copying is achieved through aversive or appetitive memory. To do so, we split the negative and positive information given by the usual mate-copying demonstration. A classical demonstration, in which a demonstrator female chooses between two males, contains a rejection (negative information) of a male and an acceptance (positive information) of the other one. We thus created three demonstration treatments: (1) a "control" where a demonstrator female freely chooses between two males, (2) an Acceptance treatment with one accepted male copulating with a demonstrator female, and (3) a Rejection treatment with one male actively rejected by a female (See Figure~\ref{fig:ar}).
 	
 		\begin{figure}[h]
 		\centering
@@ -325,7 +327,7 @@ Thanks to \textcite{kitamoto_conditional_2001}, we know that UAS-GAL4 technology
 
 	For each treatment, the difference from random choice was tested with a binomial test, Acceptance (where the observer female sees a copulation, N = 64, P {\textless} 0.001) and ``control'' (N = 64, P = 0.03) were both significantly different from random, but Rejection treatment (where the observer female sees a male rejected without copulation, N = 64, P = 0.382) was not (Figure 4).
 
-	To test for the significance of mate copying among treatments, we built a global model including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. The selected model included the effect of treatment, air pressure, variation of air pressure and the interaction between air pressure and its variation. Only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 192$, $\chi^2 = 10.447$, $p = 0.005$), air pressure (GLMM, $\chi $²: N = 192, $\chi $² = 0.572, p = 0.449) and variation of air pressure (GLMM $\chi $²: N = 192, $\chi $² = 1.831, p = 0.176) were non-significant. The interaction between air pressure and variation of air pressure was close to be significant (GLMM $\chi $²: N = 192, $\chi $² = 2.946, p = 0.086), as we could have expected in regard of the results of \textcite{dagaeff_drosophila_2016}. No significant difference has been found between ``control'' and Acceptance treatments ($\chi $² = 1.76, P = 0.18; Fig4), but both are different from Rejection treatment (acceptance - rejection: $\chi $² = 11.62, P {\textless} 0.005; control - rejection: $\chi $² = 4.52, P = 0.033; Voir figure~\ref{fig:mcsar}).
+	To test for the significance of mate copying among treatments, we built a global model including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. The selected model included the effect of treatment, air pressure, variation of air pressure and the interaction between air pressure and its variation. Only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 192$, $\chi^2 = 10.447$, $p = 0.005$), air pressure (GLMM, $\chi $²: N = 192, $\chi $² = 0.572, p = 0.449) and variation of air pressure (GLMM $\chi $²: N = 192, $\chi $² = 1.831, p = 0.176) were non-significant. The interaction between air pressure and variation of air pressure was close to be significant (GLMM $\chi $²: N = 192, $\chi $² = 2.946, p = 0.086), as we could have expected in regard of the results of \textcite{dagaeff_drosophila_2016}. No significant difference has been found between ``control'' and Acceptance treatments ($\chi $² = 1.76, P = 0.18; Fig4), but both are different from Rejection treatment (acceptance - rejection: $\chi $² = 11.62, P {\textless} 0.005; control - rejection: $\chi $² = 4.52, P = 0.033; See figure~\ref{fig:mcsar}).
 	
 
 		\begin{figure}
@@ -343,7 +345,7 @@ For this second experiment, we tested 336 females, among which 208 copulated, in
 
 As for the previous experiment, we first tested difference from random choice for each treatment with a binomial test: females from Ddc treatment exhibited a mate-copying score different from random (N = 39, p {\textless} 0.024) while TH did not (N = 49, p {\textless} 0.568)(Fig 5).
 
-To test for the effect of treatment on mate-copying efficiency, we built a global model, including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. The selected model included the effect of treatment, air pressure, variation of air pressure and the interaction between air pressure and its variation.Again, only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 4.245$, $p = 0.0394$), while effect of air pressure, variation of air pressure and interaction between air pressure and air pressure (Voir figure~\ref{fig:mcnb}).
+To test for the effect of treatment on mate-copying efficiency, we built a global model, including the effects of experimenter, treatment, normalized air pressure (actual air pressure minus global mean of air pressure), normalized air pressure variation (for the last six hours) and the interaction between air pressure and variation of air pressure. The selected model included the effect of treatment, air pressure, variation of air pressure and the interaction between air pressure and its variation.Again, only the treatment had a significant effect on mate-copying (GLMM, $\chi^2$: $N = 88$, $\chi^2 = 4.245$, $p = 0.0394$), while effect of air pressure, variation of air pressure and interaction between air pressure and air pressure (See figure~\ref{fig:mcnb}).
 
 Figure~\ref{fig:mcnb} shows a similar cluster marking to those of \textcite{liu_subset_2012}. This allows us to make sure that it is the Ddc neurons that are marked in our mutants. And so that Ddc really does not seem to be involved in mate-copying.
 
@@ -418,11 +420,9 @@ Our results are of particular interest for next studies that focus on mate-copyi
 More generally, our results have a lot of implications in an evolutionary perspective.
 Especially on the mechanisms of evolution of social learning, and on the evolution timings of each type of learning. The fact that the mechanisms of social and non-social learning are different shows that they may have appeared at different times in the evolution of life. Also the fact that is possible to study social learning in flies, a non-social insect, will potentially allow the study of the evolution of social learning through the complexification of the brain. Finally, the study of social learning and cognition in Drosophila hold considerable promises for future. Its ease of study and the knowledge amassed above allows relevant studies and rapid discoveries of mechanisms still poorly known. Notably, in this period when Neo-Darwinism is undermined, the discovery of a form of cultural transmission in this species is an incredible opportunity. Indeed, if the genetic aspect of transmission is now very well known, epigenetic or cultural transmission, which have an impact in evolution that has long been underestimated, are still rather unknown. Thus, as a model of study, the \textit{Drosophila melanogaster} makes it possible to fill this gap thanks to the in-depth study of the mechanisms underlying evolutionary high-impact processes such as social learning. Future studies will be able to take a closer look at social learning mechanisms, which is at the root of cultural transmission.
 
-\clearpage
+% \clearpage
+\newrefcontext[sorting=nyt] % sorts the bibliography by name first, then year, title
 
 \printbibliography
 
-
-\newrefcontext[sorting=nyt] % sorts the bibliography by name first, then year, title
-
- \end{document}
+\end{document}
